@@ -4,6 +4,8 @@ title: "ARCHROEN - Archaeological Chronology Extraction and Normalization"
 authors:
   - family-names: "Sousa da Silva"
     given-names: "João Messias"
+version: "1.0.0"
+date-released: "2026-07-03"
 repository-code: "https://github.com/joaomessiah/archroen"
 preferred-citation:
   type: thesis

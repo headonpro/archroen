@@ -143,6 +143,8 @@ BibTeX:
 }
 ```
 
+This documentation describes **version 1.0.0**, the version presented in the thesis. See [CHANGELOG.md](CHANGELOG.md) for the release history.
+
 ## Support
 
 Have a question, or something not working? Please post it on the
