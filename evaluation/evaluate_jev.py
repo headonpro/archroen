@@ -211,12 +211,14 @@ def equiv_key(r):
     return (ev.keyname(r["pot"]), r["typ"])
 
 
-def resolve(align_results, out_rows, match_p=MATCH_P, any_p=ANY_P):
+def resolve(align_results, out_rows, match_p=None, any_p=None):
     """align_results: {gold_idx: {'probs': {out_idx(str): p}, 'any': p}}.
     A Choice spreads its probability over indistinguishable rows (a finds table lists 'jar Alzey 30'
     several times), so probabilities are first summed per equivalence class of candidate rows. Then
     greedy by descending class probability: a gold find takes any still-free member of its best class
     with summed p >= match_p, provided its `any` >= any_p. Returns (pairs [(g, o, p)], missing, overclaim)."""
+    match_p = MATCH_P if match_p is None else match_p
+    any_p = ANY_P if any_p is None else any_p
     keys = [equiv_key(r) for r in out_rows]
     triples = []
     for gi, res in align_results.items():
@@ -339,6 +341,7 @@ def _totals(per):
 
 
 def main():
+    global MATCH_P, ANY_P
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--summary-dir", required=True, help="directory of <report>.csv outputs to score")
     ap.add_argument("--label", required=True, help="name of the scored arm (cache + output folder)")
@@ -349,10 +352,13 @@ def main():
     ap.add_argument("--no-score-stage", action="store_true", help="skip the per-pair Score confirmation")
     ap.add_argument("--dry", action="store_true", help="fail instead of calling the API (cache only)")
     ap.add_argument("--out-base", default=str(eg.EVAL_OUTPUT_BASE / "jev"))
+    ap.add_argument("--match-p", type=float, default=MATCH_P, help="Choice probability threshold (default %(default)s)")
+    ap.add_argument("--any-p", type=float, default=ANY_P, help="Noul threshold (default %(default)s)")
     args = ap.parse_args()
+    MATCH_P, ANY_P = args.match_p, args.any_p
 
     gold_dir, out_dir = ev._resolve_dirs(args.folder, args.summary_dir)
-    out_base = Path(args.out_base) / args.label
+    out_base = Path(args.out_base) / (args.label if (args.match_p, args.any_p) == (0.5, 0.5) else f"{args.label}_m{args.match_p}_a{args.any_p}")
     judge = Judge(Path(args.out_base) / "cache" / args.label, workers=args.workers, dry=args.dry)
     print(f"[jev-eval] arm={args.label} model={MODEL} outputs={out_dir}\n")
     agg, rec, per_report, detail, align_rows = run(gold_dir, out_dir, judge, args.report, args.present_only,
