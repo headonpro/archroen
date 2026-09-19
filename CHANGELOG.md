@@ -6,6 +6,14 @@ All notable changes to ARCHROEN are documented in this file. The format is based
 
 <!-- Add post-1.0.0 changes here under an "## [Unreleased]" heading before the next release. -->
 
+## [Unreleased]
+
+### Fixed
+- Hybrid extractor: catalogue finds recovered by registration number kept an empty site name at
+  row construction and, without a grounded typology, a date certainty of 0; the 5c confirm reply
+  was parsed without any fallback, so a truncated or non-JSON reply rejected every rule candidate
+  without a warning; the table-extraction PDF handle was never closed.
+
 ## [1.0.0] - 2026-07-03
 
 Initial public release: the version presented in the thesis.
