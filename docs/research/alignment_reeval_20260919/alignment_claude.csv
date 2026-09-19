@@ -1,0 +1,269 @@
+report,gold_idx,out_idx,choice_p,any_p,choice_confidence,level,gold_pot,out_pot,gold_typ,out_typ,gold_quote,out_quote
+old_rep_1,1,1,0.990,0.980,0.990,same,Terra sigillata,Terra sigillata,,,"Ze waren verspreid over eene groote uitgestrektheid en v/ijzen er op, dat'daar ter plaatse in de eerste
+eeuwen onzer jaa","Eenige kenmerkende scherven, waaronder een drietal van terra sigillata, zijn overgedaan aan het Museum"
+old_rep_1,0,0,0.950,0.800,0.920,same,Roman ware,Romani ware,,,"Ze waren verspreid over eene groote uitgestrektheid en v/ijzen er op, dat'daar ter plaatse in de eerste
+eeuwen onzer jaa",talrijke overblijfselen van dakpannen met opstaande randen en van Romeinsch aardewerk gevonden
+old_rep_2,1,1,1.000,0.970,1.000,same,Belgic ware,Belgic ware,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
+old_rep_2,3,3,1.000,0.970,0.990,same,Smooth-walled ware,Smooth-walled ware,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
+old_rep_2,0,0,0.990,0.970,0.990,same,Terra sigillata,Terra sigillata,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
+old_rep_2,4,4,0.980,0.940,0.970,same,Coarse ware,Coarse ware,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
+old_rep_2,2,2,0.940,0.860,0.930,same,Colour-coated ware,Colour-coated ware,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
+old_rep_2,5,5,0.860,0.730,0.830,same,Terra sigillata,Pottery,,,"De oudste vondst was toen een scherf met het stempel van de Italiaanse pottenbakker „Cnaeus Ateius"", die tot uiterlijk 2",De oudste vondst was toen een scherf met het stempel van de Italiaanse pottenbakker „Cnaeus Ateius
+old_rep_2,6,,,0.510,0.590,missing,Pottery,,,,Verder waren er scherven uit het midden van dezelfde eerste eeuw na Christus.,
+old_rep_3,0,0,1.000,0.980,0.560,same,Terra sigillata ,Terra sigillata,,,"Het dateert uit het midden van de 4e eeuw en leverde, behalve botresten en een kom van met radstempels versierde terra s",een kom van met radstempels versierde terra sigillata
+old_rep_3,1,1,1.000,0.960,1.000,same,Handmade pottery,Handmade ware,,,een kom van handgemaakt aardewerk waarvoor rechtstreekse parallellen alleen in noord-Nederland te vinden zijn. Zij zijn ,een kom van handgemaakt aardewerk waarvoor rechtstreekse parallellen alleen in noord-Nederland te vinden zijn
+old_rep_3,2,2,1.000,0.980,0.980,same,Terra sigillata ,Terra sigillata,,,"aardewerk, de terra sigillata met radstempelversiering. Daarbij zijn er maar twee die in de vroege 4e eeuw gemaakt zijn","bijna twintig fragmenten vrij goed dateerbaar aardewerk, de terra sigillata met radstempelversiering. Daarbij zijn er ma"
+old_rep_3,4,3,1.000,0.970,1.000,same,Pottery,Pottery,,,scherven uit de IJzertijd,Ze bevatten namelijk scherven uit de IJzertijd
+old_rep_3,3,,,0.960,0.980,missing,Terra sigillata ,,Hübener Group 3,,"de rest is dateerbaar vanaf het midden van de 4e eeuw (Hubener 1968, groepen 3-6).",
+old_rep_4,0,0,1.000,0.970,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,Dragendorff 18,"terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra ni"
+old_rep_4,1,1,1.000,0.980,1.000,same,Terra sigillata cup,Terra sigillata cup,Dragendorff 33,Dragendorff 33,Dragendorff 33,"terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra ni"
+old_rep_4,2,2,1.000,0.970,1.000,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,Dragendorff 37,"terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aardewerk met en zonder barbotineversiering, terra ni"
+old_rep_4,5,5,1.000,0.980,1.000,same,Terra nigra,Terra nigra,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm","terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten"
+old_rep_4,6,6,1.000,0.980,1.000,same,Terra rubra,Terra rubra,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm","terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten"
+old_rep_4,4,4,0.990,0.970,0.980,same,Colour-coated ware without barbotine decoration,Colour-coated ware without barbotine decoration,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",gevernist aardewerk met en zonder barbotineversiering
+old_rep_4,7,7,0.990,0.970,0.980,same,Smooth-walled ware,Smooth-walled ware,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm","terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten"
+old_rep_4,10,10,0.990,0.970,0.990,same,Mortarium without pouring spout,Mortarium without pouring spout,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten
+old_rep_4,11,11,0.990,0.960,0.980,same,Lid,Lid,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten
+old_rep_4,12,8,0.990,0.960,0.900,same,Coarse ware,Coarse ware,,,ruwwandige,"terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten"
+old_rep_4,3,3,0.980,0.970,0.970,same,Colour-coated ware with barbotine decoration,Colour-coated ware with barbotine decoration,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",gevernist aardewerk met en zonder barbotineversiering
+old_rep_4,9,9,0.980,0.930,0.970,same,Mortarium with pouring spout,Mortarium with pouring spout,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",wrijfschaalfragmenten met en zonder uitschenkrand en dekselfragmenten
+old_rep_4,8,12,0.970,0.950,0.970,review,Coarse ware,Coarse ware,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm","Over het gehele perceel liggen dakpanfragmenten, ruwwandige en terra sigillatascherven verspreid."
+old_rep_4,13,13,0.950,0.970,0.950,same,Terra sigillata,Terra sigillata,,,terra sigillatascherven verspreid,"Over het gehele perceel liggen dakpanfragmenten, ruwwandige en terra sigillatascherven verspreid."
+old_rep_5,4,4,1.000,0.970,1.000,same,Urn,Urn,,,"kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag","kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag, die onteg"
+old_rep_5,0,0,0.990,0.950,0.990,same,Dish,Dish,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag, die onteg"
+old_rep_5,1,1,0.980,0.920,0.960,same,Bowl,Bowl,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag, die onteg"
+old_rep_5,2,2,0.970,0.930,0.970,same,Beaker,Beaker,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag, die onteg"
+old_rep_5,3,3,0.970,0.940,0.960,same,Jug,Jug,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag, die onteg"
+table_1,0,0,1.000,0.980,1.000,same,amphora,amphora,Mayen R19,Mayen R19,amphora,amphora Mayen R19 1 1 1
+table_1,3,3,1.000,0.970,1.000,same,Coarse ware bowl,Coarse ware bowl,Niederbieber 104,Niederbieber 104,bowl,bowl NB 104 1 1 1
+table_1,4,4,1.000,0.980,0.960,same,Trier bowl,Trier bowl,"Trier III, 40a","Trier III, 40a",bowl,"bowl Trier III, 40a 1 1 1"
+table_1,12,12,1.000,0.970,1.000,same,Late Roman lid,Late Roman lid,Alzey 34,Alzey 34,plate,plate Alzey 34 5 3 3
+table_1,22,22,1.000,0.980,0.990,same,Late Roman storage jar,Late Roman storage jar,Alzey 30,Alzey 30,jar,jar Alzey 30 1 1 1
+table_1,26,26,1.000,0.980,1.000,same,Cheese strainer,Cheese strainer,FG1a,FG1a,cheese strainer,cheese strainer FG1a 1 1 1
+table_1,29,29,1.000,0.980,1.000,same,Coarse ware cooking pot,Coarse ware cooking pot,Niederbieber 89,Niederbieber 89,jar,jar NB 89 1 1 1
+table_1,32,32,1.000,0.980,0.960,same,Trier bowl,Trier bowl,"Trier III, 40a","Trier III, 40a",bowl,"bowl Trier III, 40a 1 1 1"
+table_1,1,25,0.990,0.970,0.840,same,Late Roman bowl,Late Roman bowl,Alzey 28,Alzey 28,bowl,bowl Alzey 28 1 1 1
+table_1,6,6,0.990,0.940,0.980,same,Bowl/Jar,Dolium,,,dolium,dolium proled shoulder 2 1 1
+table_1,10,30,0.990,0.960,0.720,same,Late Roman storage jar,Late Roman storage jar,Alzey 30,Alzey 30,jug,jug Alzey 30 1 1 1
+table_1,14,1,0.990,0.970,0.840,same,Late Roman bowl,Late Roman bowl,Alzey 28,Alzey 28,bowl,bowl Alzey 28 29 15 15
+table_1,30,10,0.990,0.960,0.720,same,Late Roman storage jar,Late Roman storage jar,Alzey 30,Alzey 30,jug,jug Alzey 30 25 8 7
+table_1,25,14,0.980,0.900,0.750,same,Late Roman bowl,Late Roman bowl,Alzey 28 cf.,Alzey 28 cf.,bowl,bowl Alzey 28 cf. 1 1 1
+table_1,8,16,0.980,0.970,0.710,same,Late Roman cooking pot,Late Roman cooking pot,Alzey 27,Alzey 27,jar,jar Alzey 27 1 1 1
+table_1,16,38,0.980,0.970,0.710,same,Late Roman cooking pot,Late Roman cooking pot,Alzey 27,Alzey 27,jar,jar Alzey 27 1 1 1
+table_1,19,19,0.980,0.970,0.500,same,Late Roman storage vessel,Late Roman storage vessel,Alzey 29,Alzey 29,plate,plate Alzey 29 5 2 2
+table_1,20,20,0.980,0.930,0.690,same,Coarse ware bowl,Coarse ware bowl,Niederbieber 104 cf.,Niederbieber 104 cf.,bowl,bowl NB 104 cf. 1 1 1
+table_1,28,8,0.980,0.970,0.710,same,Late Roman cooking pot,Late Roman cooking pot,Alzey 27,Alzey 27,jar,jar Alzey 27 41 13 13
+table_1,31,31,0.980,0.970,0.500,same,Late Roman storage vessel,Late Roman storage vessel,Alzey 29,Alzey 29,plate,plate Alzey 29 2 2 2
+table_1,38,28,0.980,0.970,0.710,same,Late Roman cooking pot,Late Roman cooking pot,Alzey 27,Alzey 27,jar,jar Alzey 27 14 11 10
+table_1,2,34,0.970,0.970,0.780,same,Late Roman storage vessel,Late Roman storage vessel,Alzey 29,Alzey 29,bowl,bowl Alzey 29 1 1 1
+table_1,34,2,0.970,0.970,0.780,same,Late Roman storage vessel,Late Roman storage vessel,Alzey 29,Alzey 29,bowl,bowl Alzey 29 5 5 5
+table_1,37,37,0.920,0.920,0.910,same,Late Roman dish,Late Roman dish,Alzey 33 cf,Alzey 33 cf.,jar,jar Alzey 33 cf. 8 1 1
+table_1,21,7,0.850,0.960,0.440,same,Jar,Jar,,,jar,jar - 8 6 -
+table_1,23,33,0.850,0.960,0.440,same,Jar,Jar,,,jar,jar - 1 1 -
+table_1,5,5,0.740,0.930,0.680,same,Bowl,Bowl/Jar,,,bowl/jar,bowl/jar - 1 1 1
+table_1,24,17,0.730,0.890,0.400,same,Jug,Jug,,,plate,jug - 1 1 1
+table_1,27,9,0.720,0.920,0.500,same,Jug,Jug,,,jar,jug - 4 4 -
+table_1,15,15,0.690,0.940,0.600,same,Jar,Bowl/Jar,,,bowl/jar,bowl/jar - 1 1 1
+table_1,13,21,0.600,0.870,0.330,same,Jar,Jar,,,bowl,jar - 6 2 1
+table_1,11,23,0.590,0.830,0.270,same,Jar,Jar,,,plate,regional (Meuse valley?) jar - 1 1 -
+table_1,18,35,0.590,0.830,0.270,same,Jar,Jar,,,plate,jar - 1 1 -
+table_1,33,27,0.510,0.790,0.280,same,Plate,Jar,,,jar,jar - 11 4 -
+table_1,35,36,0.510,0.790,0.280,same,Plate,Jar,,,jar,jar - 2 1 -
+table_1,7,,,0.920,0.310,missing,Bowl/Jar,,,,jar,
+table_1,9,,,0.970,0.960,missing,Dolium,,,,jug,
+table_1,17,,,0.860,0.220,missing,Jar,,,,jug,
+table_1,36,,,0.790,0.280,missing,Plate,,,,jar,
+table_2,0,2,1.000,0.980,0.960,same,Pottery,Pottery,,,Romeinse tijd: aardewerk.,Romeinse tijd: aardewerk.
+table_2,1,3,1.000,0.970,0.950,same,Pottery,Pottery,,,"Rond het gebouw werden enkele paalgaten en kuilen teruggevonden, met in de kuilen aardewerk en bouwmateriaal.",Midden-Romeinse tijd: agrarisch gebouw (waarschijnlijk graanschuur). Rond het gebouw werden enkele paalgaten en kuilen t
+table_2,4,6,1.000,0.980,1.000,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk Romeinse villa, concentratie dakpanfragmenten,
+aardewerk.","Romeinse tijd: vermoedelijk Romeinse villa, concentratie dakpanfragmenten, aardewerk."
+table_2,6,8,1.000,0.980,1.000,same,Terra sigillata,Terra sigillata,,,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)","Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)"
+table_2,7,9,1.000,0.990,1.000,same,Dolium,Dolium,,,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)","Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)"
+table_2,8,10,1.000,0.980,1.000,same,Cooking pot,Cooking pot,,,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)","Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)"
+table_2,9,11,1.000,0.980,0.990,same,Flagon ware,Flagon ware,,,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)","Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)"
+table_2,10,12,1.000,0.980,1.000,same,Pottery,Pottery,,,"Romeinse tijd: aardewerk, bouwmateriaal.","Romeinse tijd: aardewerk, bouwmateriaal."
+table_2,11,0,0.990,0.950,0.990,same,Pottery,Pottery,,,"Late ijzertijd: kuil met brokken verbrande leem, houtskoolfragmenten en organische resten, 250-tal scherven uit bewoning","Late ijzertijd: kuil met brokken verbrande leem, houtskoolfragmenten en organische resten, 250-tal scherven uit bewoning"
+table_2,5,4,0.800,0.500,0.540,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk","Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
+table_2,2,7,0.710,0.500,0.330,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin,aardewerk.","Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
+table_2,3,,,0.450,0.430,missing,Pottery,,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk",
+table_2,12,,,0.490,0.660,missing,Handmade ware pot,,,,een aantal bodem- en wandscherven van een pot in handgemaakt aardewerk,
+table_3,5,5,1.000,0.980,0.990,same,Amphora,Amphora,,,Amphorae,Amphorae 11.1 11.1
+table_3,7,6,1.000,0.990,0.990,same,Mortarium,Mortarium,,,Mortaria,Mortaria 0.7 0.7
+table_3,0,0,0.990,0.970,0.990,same,Arretina,Arretina,,,Arretina,Arretina 2.0 2.0
+table_3,1,1,0.990,0.970,0.990,same,Fine ware,Fine ware,,,Fine ware,Fine ware 16.6 16.6
+table_3,2,2,0.990,0.980,0.980,same,Gallo-Belgic ware,Gallo-Belgic ware,,,Gallo-Belgic ware,Gallo-Belgic ware 5.6 5.6
+table_3,3,3,0.990,0.980,0.980,same,Pompeian red ware,Pompeian red ware,,,Pompeian red ware,Pompeian red ware 0.1
+table_3,4,4,0.990,0.980,0.980,same,Smooth ware,Smooth ware,,,Smooth ware,Smooth ware 20.2 * 20.2
+table_3,6,10,0.990,0.820,0.980,same,Dolium,Dolia,,,Dolia,Dolia
+table_3,8,7,0.990,0.980,0.990,same,Coarse ware,Coarse ware,,,Coarse ware,Coarse ware 19.0 19.0
+table_3,9,8,0.990,0.980,0.980,same,Cork ware,Cork ware,,,Cork ware,Cork ware 2.1 2.1
+table_3,10,9,0.990,0.980,0.990,same,Handmade pottery,Handmade pottery,,,Handmade pottery,Handmade pottery 21.8 21.8
+table_4,3,4,1.000,0.980,0.950,same,Spanish fish sauce amphora,Spanish fish sauce amphora,Dressel 7-11,Dressel 7-11,Dressel 7-11,Dressel 7-11 (fig. 2.18) fish sauce 15
+table_4,5,25,1.000,0.980,0.950,same,Spanish fish sauce amphora,Spanish fish sauce amphora,Dressel 7-11,Dressel 7-11,Dressel 7-11,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia"
+table_4,6,5,1.000,0.970,1.000,same,Spanish fish sauce amphora,Spanish fish sauce amphora,Dressel 12,Dressel 12,Dressel 12,Dressel 12 fish sauce 1
+table_4,7,7,1.000,0.980,0.990,same,Italian wine amphora,Italian wine amphora,Dressel 1B,Dressel 1B,Dressel 1B,Italy Etruria Dressel 1B wine 1
+table_4,17,18,1.000,0.960,1.000,same,pottery,pottery,Oberaden 21,Oberaden 21,Oberadenb 21b plates in Pompeian red ware,"Rare are the Oberaden 21 plates in Pompeian red ware (Niemeijer 2017, 17), which were used to bake or heat food in an ov"
+table_4,18,14,1.000,0.970,1.000,same,jug,jug,Stuart 103/Oberaden 43,Stuart 103/Oberaden 43,flagons Stuartb 103/Oberaden 43,Flagon Stuart 103/ Oberaden 43 (fig. 2.13) is the best represented.
+table_4,19,16,1.000,0.980,1.000,same,Smooth-walled jug,Smooth-walled jug,Stuart 131/Oberaden 48-49,Stuart 131/Oberaden 48-49,Stuartb 131/Oberadenb 48-49,Stuart 131/ Oberaden 48-49 (fig. 2.15)
+table_4,20,15,1.000,0.840,0.990,same,Flagon,jug,Stuart 133/Oberaden 52,Stuart 133/Oberaden 52,flagons Stuartb 133/Oberadenb 52,flagons Stuart 133/Oberaden 52 (fig. 2.14)
+table_4,21,17,1.000,0.970,1.000,same,Smooth-walled honey pot,Smooth-walled honey pot,Stuart 146,Stuart 146,honey pots' Stuartb 146b,the so-called 'honey pots' Stuart 146 were also common
+table_4,22,20,1.000,0.980,1.000,same,pottery,pottery,Stuart 147,Stuart 147,large handmade dolia Stuart 147,several fragments of large handmade dolia Stuart 147 with a wheelthrown rim with a black coating. (fig. 5.11) have been 
+table_4,26,24,1.000,0.960,0.990,same,Cooking pot,Cooking pot,,,cooking pots,"The small wheelthrown vessels (cf. figs 2.11, 3.1-6, 5.12-14) are often called cooking pots."
+table_4,8,8,0.990,0.890,0.990,same,Amphora,Adriatic wine amphora,Lamboglia 2/Dressel 6A,Lamboglia 2/Dressel 6A,Lamboglia2/Dressel6A,Lamboglia 2/Dressel 6A (fig. 2.17) (cf. Lindhagen 2009; Carre et al. 2014) wine 4
+table_4,15,6,0.990,0.970,0.990,same,Tarraconensian wine amphora,Tarraconensian wine amphora,Pascual 1,Pascual 1,Pascual 1,Tarraconensis Pascual 1 wine 4
+table_4,16,19,0.990,0.890,0.980,same,Amphora,Amphora,Haltern 59,Haltern 59,mortaria with vertical rim Halternb 59,sherds of mortaria with vertical rim Haltern 59 (fig. 5.10). produced in Lyon and nearby Saint-Romain-en-Gal have been f
+table_4,23,21,0.990,0.980,0.990,same,Dolium,Dolium,,,dolia with a small twisted Wulstrand,"several sherds of dolia with a small twisted Wulstrand were found (fig. 2.19-20), which can be specifically dated to thi"
+table_4,24,22,0.990,0.970,0.990,same,Terra sigillata,Terra sigillata,,,terra sigillata,"Among the tableware, the low proportion of terra sigillata is striking"
+table_4,25,23,0.990,0.950,0.990,same,Beaker,Beaker,,,ࡼne ware beakers,the tableware is strongly dominated by the fine ware beakers
+table_4,1,2,0.980,0.980,0.970,same,Baetica defrutum amphora,Baetica defrutum amphora,Haltern 70,Haltern 70,Haltern 70,"Haltern 70 sapa, defrutum or olives conserved in those products 1"
+table_4,12,11,0.980,0.970,0.970,same,Knidian wine amphora,Knidian wine amphora,Pompeii 38,Pompeii 38,Pompeii 38,Knidos Pompeii 38 wine 1
+table_4,4,26,0.970,0.970,0.960,same,Spanish fish sauce amphora,Spanish fish sauce amphora,Dressel 7,Dressel 7,Dressel 7,"Region
+Iberian Peninsula
+Baetican mainland
+Italy
+Marismas
+Baetican coast
+Tarraconensis
+Etruria
+Adriatic
+Aegean
+Kos (Asia"
+table_4,11,10,0.940,0.920,0.930,same,Coarse ware vessel,Coarse ware vessel,Camulodunum 184,Camulodunum 184,Camulodunum 184,Rhodes (Asia Minor) Camulodunum 184 wine 6
+table_4,9,9,0.930,0.860,0.910,same,Amphora,Italian/Spanish wine amphora,Dressel 2-5,Dressel 2-5,Dressel 2-5,Aegean Kos (Asia Minor) Dressel 2-5 wine 7
+table_4,10,0,0.870,0.950,0.860,same,pottery,pottery,Oberaden 83,Oberaden 83,Oberaden 83,Iberian Peninsula Baetican mainland Oberaden 83 olive oil 2
+table_4,0,1,0.820,0.920,0.800,same,Amphora,Amphora,,,globular,globular olive oil 8
+table_4,2,3,0.810,0.920,0.790,same,Amphora,Amphora,,,cylindrical,cylindrical olive oil 4
+table_4,13,12,0.690,0.940,0.440,same,Amphora,Amphora,,,unknown,Gaul Lyon unknown wine 1
+table_4,14,13,0.690,0.940,0.440,same,Amphora,Amphora,,,unknown,Languedoc/Marseille unknown wine 1
+table_4,27,,,0.720,0.930,missing,Pot,,,,pot,
+table_5,0,0,1.000,0.980,1.000,same,Terra nigra flask-shaped pot,Terra nigra flask-shaped pot,Holwerda 25,Holwerda 25,Holwerda 25,terra nigra holwerda 25? 1 1
+table_5,1,1,1.000,0.980,1.000,same,Terra nigra round-oval pot,Terra nigra round-oval pot,Holwerda 27,Holwerda 27,Holwerda 27,Holwerda 27 1 3
+table_5,2,2,1.000,0.970,0.990,same,rough-walled Nijmegen pottery,rough-walled Nijmegen pottery,Holwerda 66,Holwerda 66,Holwerda 66,Holwerda 66 2
+table_5,3,3,1.000,0.980,1.000,same,Terra nigra plate,Terra nigra plate,Holwerda 81,Holwerda 81,Holwerda 81,Holwerda 81 2 3
+table_5,10,10,1.000,0.980,1.000,same,Color-coated beaker,Color-coated beaker,Niederbieber 33,Niederbieber 33,Niederbieber 33,fragmenten aangetroffen van deze late terra nigra en wel een deukbeker van het type Niederbieber 33
+table_5,7,7,0.990,0.980,0.990,same,Handmade cork urn,Handmade cork urn,Holwerda 94,Holwerda 94,Holwerda 94,kurkurn Holwerda 94 2 3 4
+table_5,9,9,0.740,0.930,0.710,same,Beaker,Beaker,,,beker,wit beker 8 8
+table_5,4,4,0.700,0.940,0.660,same,Terra nigra pot,Terra nigra pot,,,pot,pot 1 1
+table_5,6,6,0.580,0.960,0.470,same,Terra nigra,Terra nigra,,,indet,indet 106
+table_5,5,5,0.580,0.960,0.450,same,Terra nigra,Terra nigra,,,onbekend,onbekend 1 1
+table_5,8,,,0.410,0.540,missing,Indeterminate,,,,indet,
+ocr_1,0,0,1.000,0.980,0.990,same,Arretine ware plate,Arretine ware plate,Conspectus 11,Conspectus 11,Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia),Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia) and dated to the late 1st c
+ocr_2,0,0,1.000,0.990,1.000,same,22-3-6/4056,22-3-6/4056,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.","Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont. (source: D.S. Habermehl)
+22-3-6/4056"
+ocr_2,1,1,1.000,0.990,0.990,same,513-2/20-1-67,513-2/20-1-67,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",513-2/20-1-67
+ocr_2,2,7,1.000,0.990,0.990,same,514-3/20-3-63,514-3/20-3-63,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",514-3/20-3-63
+ocr_2,3,3,1.000,0.980,1.000,same,711-1/13-1-27,711-1/13-1-27,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",711-1/13-1-27
+ocr_2,4,5,1.000,0.990,0.990,same,757-10/109-2-5,757-10/109-2-5,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",757-10/109-2-5
+ocr_2,5,6,1.000,0.990,1.000,same,768-1/15-2-19,768-1/15-2-19,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",768-1/15-2-19
+ocr_2,6,2,1.000,0.990,0.990,same,768-2/15-2-19,768-2/15-2-19,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",768-2/15-2-19
+ocr_2,7,4,0.990,0.990,0.990,same,791-1/95-2-22,791-1/95-2-22,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",791-1/95-2-22
+ocr_3,0,,,0.220,0.780,missing,Roman ware,,,,"fragmenten gevonden van Romeinse!) aardewerk, waarschynlyk uit de 2c eeuw na Christus.",
+ocr_4,0,0,1.000,0.990,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"Een terra-sigillata schaaltje in fragment type Drag 18/ 31, met de
+pottenbakkersstempel: COSI. RVTIN.","Een terra sigillata schaaltje in fragment type Drag. 18/31, met de pottenbakkersstempel: COSI. RVTIN."
+ocr_4,1,1,1.000,0.950,0.960,same,Terra sigillata,Terra sigillata,,,Een terra-sigillata bodemfragment waarop aan de buitenzijde ingekrast:,Een terra sigillata bodemfragment waarop aan de buitenzijde ingekrast: KOVIN.
+ocr_4,2,2,1.000,0.990,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 32,Dragendorff 32,Een terra-sigillata schaal in fragment type Drag 32.,Een terra sigillata schaal in fragment type Drag. 32.
+ocr_4,3,3,1.000,0.990,1.000,same,Terra sigillata mortarium,Terra sigillata mortarium,Dragendorff 45,Dragendorff 45,Een terra-sigillata kom in fragment type Drag 45.,Een terra sigillata kom in fragment type Drag. 45.
+ocr_4,4,4,1.000,0.980,1.000,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"Drie versierde terra-sigillata fragmenten Drag 29 en 37, met eierlijst, planten en dieren","Drie versierde terra sigillata fragmenten Drag. 29 en 37, met eijerlijst, planten en dieren."
+ocr_4,5,5,1.000,0.990,1.000,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"Drie versierde terra-sigillata fragmenten Drag 29 en 37, met eierlijst, planten en dieren","Drie versierde terra sigillata fragmenten Drag. 29 en 37, met eijerlijst, planten en dieren."
+ocr_4,6,6,1.000,0.990,1.000,same,Beaker,Beaker,,,"Een geverniste beker met schubbenversiering in fragment met een
+diameter van 15 cm.",Een geverniste beker met schubbenversiering in fragment met een diameter van 15 cm.
+ocr_4,7,7,1.000,0.980,0.990,same,Terra sigillata,Terra sigillata,,,Verder nog een dertigtal aardewerkfragmenten waaronder terrasigillata en inheems aardewerk.,Verder nog een dertigtal aardewerkfragmenten waaronder terra sigillata en inheems aardewerk.
+ocr_4,8,8,1.000,0.980,1.000,same,Native ware,Native ware,,,Verder nog een dertigtal aardewerkfragmenten waaronder terrasigillata en inheems aardewerk.,Verder nog een dertigtal aardewerkfragmenten waaronder terra sigillata en inheems aardewerk.
+ocr_5,0,0,0.910,0.950,0.860,same,Beaker,Beaker,,,"Deze vroeg-Romeinse drinkbeker van aardewerk is in Coriovallum gevonden, maar gemaakt in het Franse Lyon.","Deze vroeg-Romeinse drinkbeker van aardewerk is in Coriovallum gevonden, maar gemaakt in het Franse Lyon."
+ocr_5,1,1,0.840,0.940,0.750,same,Beaker,ACO beaker,,,Bijzonder is de vroege datering van dit type bekers: ze werden voornamelijk tijdens het bewind van keizer Augustus gemaa,Deze zijn van een ACO-beker en schuin tegenover het badhuis gevonden. Bijzonder is de vroege datering van dit type beker
+new_rep_1,0,0,1.000,0.970,1.000,same,Beaker,Painted beaker,,,een stuk van een geverfde beker bestrooid met kleikorreltjes. Deze beker heeft een wit baksel met een zwarte verflaag… H,een stuk van een geverfde beker bestrooid met kleikorreltjes. Deze beker heeft een wit baksel met een zwarte verflaag. H
+new_rep_1,2,2,1.000,0.980,0.990,same,Red coarse ware,Red coarse ware,,,Twee rode ruwwandige fragmenten… kunnen niet nader geduid worden,Twee rode ruwwandige fragmenten en een sterk verweerd wit gladwandig fragment kunnen niet nader geduid worden.
+new_rep_1,4,4,1.000,0.980,0.990,same,Dolium,Dolium,,,In de sporen S5 en S6 die vlak bij elkaar liggen zijn respectievelijk een rand van een groot bolrond voorraadvat (dolium,een rand van een groot bolrond voorraadvat (dolium)
+new_rep_1,6,6,1.000,0.990,1.000,same,Baetican olive oil amphora,Baetican olive oil amphora,Dressel 20,Dressel 20,een oor van een olijfolieamfoor Dressel 20,een oor van een olijfolieamfoor Dressel 20
+new_rep_1,7,7,1.000,0.990,1.000,same,Mortarium,Mortarium,Brunsting 37,Brunsting 37,en de rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren,de rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren (afb. 4.6.10)
+new_rep_1,8,8,1.000,0.990,0.990,same,Dolium,Dolium,,,"een wandfragment van een dolium versierd met gladde ribbels,",een wandfragment van een dolium versierd met gladde ribbels
+new_rep_1,9,9,0.990,0.990,0.990,same,Mortarium,Mortarium,,,een rand van een wrijfschaal met horizontale rand uit de 2e eeuw of later,een rand van een wrijfschaal met horizontale rand uit de 2e eeuw of later
+new_rep_1,10,10,0.990,0.940,0.990,same,Pottery,Pottery,,,en een verploegd en niet herkenbaar fragment aardewerk.,een verploegd en niet herkenbaar fragment aardewerk
+new_rep_1,1,1,0.980,0.970,0.970,same,Gallic wine amphora,Gallic wine amphora,Gauloise 4,Gauloise 4,Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise 4.,Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise 4.7
+new_rep_1,3,3,0.980,0.990,0.980,same,White smooth-walled ware,White smooth-walled ware,,,en een sterk verweerd wit gladwandig fragment kunnen niet nader geduid worden.,een sterk verweerd wit gladwandig fragment kunnen niet nader geduid worden
+new_rep_1,5,5,0.980,0.980,0.980,same,Olive oil amphora,Olive oil amphora,,,In de sporen S5 en S6 die vlak bij elkaar liggen zijn respectievelijk een rand van een groot bolrond voorraadvat (dolium,een fragment van een olijfolieamfoor aangetroffen
+new_rep_2,0,0,1.000,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"--/89-0-0/8128, Drag. 29","--/89-0-0/8128, Drag. 29 (Fig. 22.6)."
+new_rep_2,1,1,1.000,0.980,1.000,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"304-1/20-5-8, Drag. 29","304-1/20-5-8, Drag. 29 (Fig. 22.6)."
+new_rep_2,2,2,1.000,0.980,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"399-2/1953-2.8, Drag. 29","399-2/1953-2.8, Drag. 29 (Fig. 22.6)."
+new_rep_2,10,10,1.000,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"302-6/100-1-6, Drag. 37","302-6/100-1-6, Drag. 37 (Fig. 22.7)."
+new_rep_2,12,12,1.000,0.970,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/27-2-24, Drag. 37","--/27-2-24, Drag. 37 (Fig. 22.7)."
+new_rep_2,20,20,1.000,0.980,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"744-9/100-1-10, Drag. 37","744-9/100-1-10, Drag. 37 (not illustrated)."
+new_rep_2,22,55,1.000,0.980,0.790,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/15-0-0/2098, Drag. 37","Basal wreath of S-shaped ornaments HZ-II O113 between plain borders, rosee HZ-II O98, spiral
+ornament HZ-II O116. Ident"
+new_rep_2,23,23,1.000,0.960,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"334-2/107-3-62 + 737-11/68-4-25, Drag. 37","334-2/107-3-62 + 737-11/68-4-25, Drag. 37 (Fig. 22.8)."
+new_rep_2,25,25,1.000,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/16-0-0/2706 + 16-3-5/2395, Drag. 37","--/16-0-0/2706 + 16-3-5/2395, Drag. 37 (Fig. 22.8)."
+new_rep_2,28,28,1.000,0.960,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,--/1895-12.46/13074,"--/1895-12.46/13074, Drag. 37 (Fig. 22.8)."
+new_rep_2,32,32,1.000,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/27-3-17/5260, Drag. 37","--/27-3-17/5260, Drag. 37."
+new_rep_2,34,34,1.000,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/1895-12.44/13070, Drag 37","--/1895-12.44/13070, Drag. 37."
+new_rep_2,35,35,1.000,0.980,1.000,same,Terra sigillata,Terra sigillata cup,Dragendorff 27g,Dragendorff 27g,"702-19/7-0-11, Drag. 27g","702-19/7-0-11, Drag. 27g (Fig. 22.10)."
+new_rep_2,36,36,1.000,0.960,1.000,same,Terra sigillata dish,Terra sigillata dish,,,"--/96-2-1/8220, dish","--/96-2-1/8220, dish (Fig. 22.10)."
+new_rep_2,37,37,1.000,0.970,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18,Dragendorff 18,"--/1953-2.5/13052, Drag. 18","--/1953-2.5/13052, Drag. 18 (Fig. 22.10)."
+new_rep_2,38,38,1.000,0.970,1.000,same,Terra sigillata cup,Terra sigillata cup,,,"--/1932-11.3/13041, cup","--/1932-11.3/13041, cup (Fig. 22.10)."
+new_rep_2,39,39,1.000,0.970,1.000,same,Terra sigillata cup,Terra sigillata cup,Dragendorff 27,Dragendorff 27,"--/21-3-5/3776, Drag. 27","--/21-3-5/3776, Drag. 27 (Fig. 22.10)."
+new_rep_2,40,40,1.000,0.970,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18r,Dragendorff 18R,"--/1932-11.3/13043, Drag. 18R?","--/1932-11.3/13043, Drag. 18R? (Fig. 22.10)."
+new_rep_2,41,41,1.000,0.970,1.000,same,Terra sigillata,Terra sigillata cup,Dragendorff 27g,Dragendorff 27g,"--/7-1-25/197, Drag. 27g","--/7-1-25/197, Drag. 27g (Fig. 22.10)."
+new_rep_2,42,42,1.000,0.970,0.990,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"--/96-2-1/11698, Drag. 18/31","--/96-2-1/11698, Drag. 18/31 (Fig. 22.10)."
+new_rep_2,44,44,1.000,0.980,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"--/95-1-19/10815, dish (probably Drag. 18/31)","--/95-1-19/10815, dish (probably Drag. 18/31)."
+new_rep_2,45,45,1.000,0.980,1.000,same,Terra sigillata cup,Terra sigillata cup,Dragendorff 27,Dragendorff 27,"--/95-2-9/10948, cup, probably Drag. 27","--/95-2-9/10948, cup, probably Drag. 27 (Fig. 22.10)."
+new_rep_2,46,46,1.000,0.970,0.990,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"319-13/110-2-1, Drag. 18/31 or Drag. 31","319-13/110-2-1, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,48,48,1.000,0.970,0.990,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"--/1932-11.3/13042, Drag. 18/31 or Drag. 31","--/1932-11.3/13042, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,49,49,1.000,0.980,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 31,Dragendorff 31,"317-16/13-3-38, Drag. 31","317-16/13-3-38, Drag. 31."
+new_rep_2,51,51,1.000,0.980,0.990,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"69-2-8/7253, Drag. 18/31","69-2-8/7253, Drag. 18/31 (Fig 22.11)."
+new_rep_2,52,52,1.000,0.980,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18,Dragendorff 18,"27-2-27/5067, Drag. 18","27-2-27/5067, Drag. 18 (Fig. 22.11)."
+new_rep_2,53,53,1.000,0.970,0.990,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 31,Dragendorff 31,"742-3/95-5-8/11211, Drag. 31","742-3/95-5-8/11211, Drag. 31 (Lud. Sb)"
+new_rep_2,54,54,1.000,0.990,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 32,Dragendorff 32,"1932-11.3/13064, Drag. 32","1932-11.3/13064, Drag. 32 (Fig. 22.11)."
+new_rep_2,7,7,0.990,0.940,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/95-1-18/10762, Drag","--/95-1-18/10762, Drag. 37 (Fig. 22.6)."
+new_rep_2,11,11,0.990,0.970,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/95-1-18+95-1-60, Drag. 37","--/95-1-18+95-1-60, Drag. 37 (Fig. 22.7)."
+new_rep_2,14,14,0.990,0.790,0.990,same,Terra sigillata decorated beaker,Terra sigillata decorated bowl,Dragendorff 30,Dragendorff 30,"--/96-2-1/8224, Drag. 30","--/96-2-1/8224, Drag. 30 (Fig. 22.7)."
+new_rep_2,17,17,0.990,0.970,0.970,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"744-10/100-2-3/8440, Drag. 37","744-10/100-2-3/8440, Drag. 37 (Fig. 22.7)."
+new_rep_2,24,24,0.990,0.970,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"757-17/104-3-5, Drag. 37","757-17/104-3-5, Drag. 37 (Fig. 22.8)."
+new_rep_2,27,27,0.990,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"413-6/94-4-1/10531, Drag. 37","413-6/94-4-1/10531, Drag. 37 (Fig. 22.8)."
+new_rep_2,29,29,0.990,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"319-8/110-2-1, Drag. 37","319-8/110-2-1, Drag. 37 (Fig. 22.9)."
+new_rep_2,33,33,0.990,0.970,0.990,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/94-3-5/10503, Drag 37","--/94-3-5/10503, Drag. 37."
+new_rep_2,43,43,0.990,0.940,0.980,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"730-2/27-5-1, Drag. 18/31","TAVRI[ANI], 730-2/27-5-1, Drag. 18/31 (Fig. 22.10)."
+new_rep_2,50,50,0.990,0.970,0.980,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"812-2/27-3-7/5184, Drag. 18/31","812-2/27-3-7/5184, Drag. 18/31 (Fig. 22.11)."
+new_rep_2,13,13,0.980,0.950,0.970,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/68-2-6/6276, Drag. 37","--/68-2-6/6276, Drag. 37 (Fig. 22.7)."
+new_rep_2,16,16,0.980,0.970,0.970,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"413-2/94-4-3/10549, Drag. 37","413-2/94-4-3/10549, Drag. 37 (Fig. 22.7)."
+new_rep_2,47,47,0.980,0.940,0.960,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"--/0-0-0/10402, Drag. 18/31 or Drag. 31","--/0-0-0/10402, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,31,31,0.970,0.920,0.930,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/16-3-7/2427+2428, Drag. 37","--/16-3-7/2427+2428, Drag. 37 (not illustrated)."
+new_rep_2,3,3,0.970,0.960,0.960,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/95-1-19/10813, Drag","--/95-1-19/10813, Drag. 37 (Fig. 22.6)."
+new_rep_2,4,4,0.970,0.920,0.960,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"“--/1895-12.43/13072, Drag","--/1895-12.43/13072, Drag. 37 (Fig. 22.6)."
+new_rep_2,8,8,0.970,0.950,0.950,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/0-0-0/12972, Drag. 37","--/0-0-0/12972, Drag. 37 (Fig. 22.6)."
+new_rep_2,15,15,0.970,0.940,0.960,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/1953-2.5/11413, Drag. 37","--/1953-2.5/11413, Drag. 37 (Fig. 22.7)."
+new_rep_2,18,18,0.970,0.960,0.960,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/16-2-34/2381, Drag. 37","--/16-2-34/2381, Drag. 37 (Fig. 22.7)."
+new_rep_2,19,19,0.970,0.950,0.930,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/1895-12.42/14465, Drag. 37","--/1895-12.42/14465, Drag. 37 (Fig. 22.7)."
+new_rep_2,21,21,0.970,0.950,0.850,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/0-0-0/10406, Drag. 37","--/0-0-0/10406, Drag. 37 (Fig. 22.8)."
+new_rep_2,26,26,0.970,0.940,0.960,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/18-1-2/2773, Drag. 37","--/18-1-2/2773, Drag. 37 (Fig. 22.8)."
+new_rep_2,30,30,0.970,0.950,0.950,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/1895-12.45/13069, Drag. 37","--/1895-12.45/13069, Drag. 37 (Fig. 22.9)."
+new_rep_2,9,9,0.960,0.940,0.950,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/27-4-7/5351, Drag. 37","--/27-4-7/5351, Drag. 37 (Fig. 22.6)."
+new_rep_2,6,6,0.940,0.960,0.910,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/13-3-9/1571, Drag. 37","--/13-3-9/1571, Drag. 37 (Fig. 22.6)."
+new_rep_2,5,5,0.930,0.950,0.880,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/13-3-15/1588, Drag. 37","--/13-3-15/1588, Drag. 37 (Fig. 22.6)."
+new_rep_3,0,0,1.000,0.990,1.000,same,Terra sigillata,Terra sigillata,,,"Among the pottery, terra sigillata dates from the 2nd century","Among the pottery, terra sigillata dates from the 2nd century"
+new_rep_3,1,1,1.000,0.990,1.000,same,Painted cup,Painted cup,,,painted cups from the 2nd and 3rd centuries,painted cups from the 2nd and 3rd centuries
+new_rep_3,2,2,1.000,0.970,1.000,same,Amphorae,Amphora,,,amphorae (of which one comes from Campania),amphorae (of which one comes from Campania) date to the 1st century
+new_rep_3,4,4,1.000,0.960,1.000,same,mortaria,Mortarium,,,"Other pottery derives from dolia, mortaria and jugs","Other pottery derives from dolia, mortaria and jugs."
+new_rep_3,5,5,1.000,0.950,0.990,same,jugs,Jug,,,"Other pottery derives from dolia, mortaria and jugs","Other pottery derives from dolia, mortaria and jugs."
+new_rep_3,3,3,0.970,0.710,0.950,same,Dolia,Dolium,,,"Other pottery derives from dolia, mortaria and jugs","Other pottery derives from dolia, mortaria and jugs."
+new_rep_4,0,5,1.000,0.990,1.000,same,Argonnian terra sigillata bowl,Argonnian terra sigillata bowl,Chenet 320,Chenet 320,"Two fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D.320-410.","Two fragments are Argonne Ware decorated with roller-stamps, these bowls of type Chenet 320 date to A.D. 320-410."
+new_rep_4,1,3,1.000,0.990,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,plates Drag.18/31,plates Drag.18/31
+new_rep_4,2,2,1.000,0.980,1.000,same,Terra sigillata cup,Terra sigillata cup,Dragendorff 33,Dragendorff 33,"The terra sigillata comprises cups bowls Drag.37,Drag.33,","The terra sigillata comprises cups bowls Drag. 37, Drag. 33"
+new_rep_4,3,1,1.000,0.980,1.000,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"The terra sigillata comprises cups bowls Drag. 37,",The terra sigillata comprises cups bowls Drag. 37
+new_rep_4,4,4,1.000,0.990,1.000,same,Terra sigillata mortarium,Terra sigillata mortarium,Dragendorff 45,Dragendorff 45,band mortaria Drag. 45,mortaria Drag. 45
+new_rep_5,7,5,1.000,0.960,0.990,same,Painted ware,Painted ware,,,29 aardewerk Romeinse tijd,"29 aardewerk Romeinse tijd 1 geverfd aardewerk, techniek B, raadjesversiering"
+new_rep_5,3,2,0.990,0.890,0.960,same,Pottery,Pottery,,,21 aardewerk Romeinse tijd,21 aardewerk Romeinse tijd 1
+new_rep_5,5,4,0.990,0.890,0.970,same,Pottery,Pottery,,,25 aardewerk Romeinse tijd,25 aardewerk Romeinse tijd 1
+new_rep_5,4,3,0.980,0.860,0.950,same,Pottery,Pottery,,,24 aardewerk Romeinse tijd,24 aardewerk Romeinse tijd 1
+new_rep_5,0,0,0.970,0.920,0.910,same,Pottery,Pottery,,,7 aardewerk Romeinse tijd 1 bodemfragment,7 aardewerk Romeinse tijd 1 bodemfragment?
+new_rep_5,2,6,0.960,0.900,0.920,same,Pottery,Pottery,,,20 aardewerk Romeinse tijd t/m Volle Middeleeuwen,20 aardewerk Romeinse tijd t/m Volle Middeleeuwen 1
+new_rep_5,6,7,0.950,0.880,0.920,same,Pottery,Pottery,,,26 aardewerk Romeinse tijd t/m Volle Middeleeuwen,26 aardewerk Romeinse tijd t/m Volle Middeleeuwen 1
+new_rep_5,1,1,0.910,0.910,0.780,same,Pottery,Pottery,,,12 aardewerk Romeinse tijd t/m Volle Middeleeuwen,12 aardewerk Romeinse tijd t/m Volle Middeleeuwen 1
