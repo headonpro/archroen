@@ -35,7 +35,7 @@ written to `output_files/evaluation/jev/<arm>/alignment.csv`.
 
 ## Result
 
-| Arm | Published | Shipped scorer, fresh run on frozen outputs | **This protocol, strict (0.5 / 0.5)** | lenient | thresholds 0.4 / 0.6 | matched | review | missing | overclaim |
+| Arm | Published | Shipped scorer, fresh run on frozen outputs | **This protocol, strict (both thresholds 0.5)** | lenient | both thresholds 0.4 / 0.6 | matched | review | missing | overclaim |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Claude | 95.6 % | 94.1 % | **88.8 %** | 89.4 % | 90.1 / 83.6 % | 229 / 241 | 1 | 11 | 10 |
 | Llama | 77.3 % | 77.3 % | **66.2 %** | 68.1 % | 68.4 / 65.7 % | 184 / 241 | 3 | 54 | 25 |
@@ -48,7 +48,7 @@ The ranking is unchanged at every threshold. The levels drop for all three arms,
 Rules-only, because name-only pairing credited rows whose quote, date or site do not support the
 pairing. Of the 141 field values Claude loses, 84 sit in table_1, table_2 and table_5 (table_1
 alone 43). A large part traces to the gold standard (below); part is threshold behaviour: in
-10 of Claude's 11 missing rows the Noul says a candidate exists (any >= 0.40, several above 0.9),
+10 of Claude's 11 missing rows the Noul says a candidate exists (any >= 0.40, three above 0.9),
 but the Choice mass is spread over similar rows and no class reaches 0.5. Rules-only is the most
 threshold-sensitive arm (58 of 241 gold finds have `any` between 0.35 and 0.65; Claude: 6).
 
@@ -60,8 +60,8 @@ about 3.5 M Jev input tokens across the three arms and protocol iterations, roug
 `evaluation/audit_gold.py` asks one Noul per gold row: does the row's own `Original_text` mention
 the pottery it names? 57 of 241 rows (23.7 %) are flagged below 0.5 (`gold_audit.csv`). Spot-checked:
 
-- **table_1**: the `Original_text` column does not line up with `Pot_name`; it runs in its own,
-  alphabetical order (row 10 "Dolium" quotes "jug", row 12 "Jar" quotes "plate", row 13 `Pot_name`
+- **table_1**: the `Original_text` column does not line up with `Pot_name`; it runs in repeated
+  alphabetical sequences (amphora, bowl, bowl, …, plate, then bowl, bowl/jar, … again; row 10 "Dolium" quotes "jug", row 12 "Jar" quotes "plate", row 13 `Pot_name`
   "Late Roman lid" / `Typology` "Alzey 34" quotes "plate"). 23 of 39 rows flagged. Whether these are
   printed table terms next to an interpreted identification or a column mix-up is for the author to
   say; a quote-aware scorer refuses some of these pairs, a name-only scorer cannot surface it.
@@ -80,9 +80,11 @@ the pottery it names? 57 of 241 rows (23.7 %) are flagged below 0.5 (`gold_audit
   agree best and then scores those same dates.
 - The alignment has two free parameters (Choice and Noul thresholds, 0.5 each); the table gives the
   figures at 0.4 and 0.6. The candidate cap of 120 never binds on this set (largest report 65 rows).
-- The Jev pairings are model judgements. I read about 40 alignment rows across six reports by hand
-  while iterating the protocol and found no "same" pairing I would call wrong; that is an informal
-  check, not a measured error rate.
+- The Jev pairings are model judgements. A random sample of 30 Claude-arm pairs judged "same"
+  (`random.seed(7)` over `alignment_claude.csv`), read by hand: none I would call wrong; two of them
+  pair a gold row whose quote contradicts its own name (table_1 "Jar" quoting "plate") with the
+  output row of that name, which is what a name-based scorer does as well. A sample of 30 is not an
+  error rate.
 - 20 reports / 241 finds carry no confidence interval here either; the per-report table in
   `summary.csv` shows the spread (Claude 0–100 % per report).
 - Jev read "same individual find" (protocol v1) and "same passage" (v2) literally, giving 48 % and
