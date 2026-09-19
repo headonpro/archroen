@@ -1,0 +1,4 @@
+
+# evaluation caches / run logs (Jev scorer)
+output_files/evaluation/jev/cache/
+output_files/evaluation/jev/run_*.log
