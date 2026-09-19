@@ -41,16 +41,17 @@ import evaluate as ev                      # noqa: E402
 import evaluate_granular as eg             # noqa: E402
 
 MODEL = "jev-1.13.0"        # pinned: thresholds below were read off this version
+PROTOCOL = "v3"             # bump when question wording changes (part of the cache key)
 CAND_CAP = 120              # candidates per gold find sent to the model (Choice max is 255)
 MATCH_P = 0.5               # Choice probability of the picked candidate must reach this
 ANY_P = 0.5                 # Noul "any candidate is the same find" must reach this
 SCORE_LEVELS = [
-    "different find: the candidate records another object, another context, or only a comparison "
-    "or parallel, not this gold find",
-    "related but not clearly the same: could be a re-mention, a group entry covering this item, "
-    "or the same ware without enough evidence that it is this individual find",
-    "same individual find: the candidate records this gold find (same object, same context), "
-    "even if the name, spelling, or language differs",
+    "different entry: another ware or type, another site, or only a comparison, parallel or "
+    "literature reference rather than a find reported at this site",
+    "unclear: the same ware or type at this site, but the candidate looks like a separate additional "
+    "entry (for example another table row or another itemised find of that ware)",
+    "same entry: the same ware or type reported as found at this site; a different wording, language "
+    "or quoted sentence about that ware still counts as the same entry",
 ]
 GOLD_TEXT_COLS = ("Original_text", "Page")
 OUT_TEXT_COLS = ("original_text", "page")
@@ -152,25 +153,29 @@ class Judge:
         from typesafe_sdk import Choice, Noul
         state = {"gold_find": _row_state(g),
                  "candidates": {f"c{i}": _row_state(p) for i, p in cands}}
-        key = "align|" + self.model + "|" + json.dumps(state, sort_keys=True)
+        key = "align|" + PROTOCOL + "|" + self.model + "|" + json.dumps(state, sort_keys=True)
 
         def call():
             crit = {f"c{i}": None for i, _ in cands}
             crit["none"] = "no candidate records this individual find"
             r = self.client().system_one(state=state, questions={
                 "which": Choice(
-                    instructions="Which entry in `candidates` records the same individual pottery find as "
-                                 "`gold_find`? Same find means the same object from the same excavation "
-                                 "context, as shown by the source quotes, typology and date; names may be "
-                                 "in Dutch or English and may differ in wording. A candidate that only "
-                                 "mentions the same ware in general, a comparison, or another object is not "
-                                 "the same find.",
+                    instructions="Which entry in `candidates` records the same pottery entry as `gold_find`? "
+                                 "The same entry means the same ware or type reported as found in this report "
+                                 "at the same site. A different wording, a Dutch or English name, or a "
+                                 "different quoted sentence about that ware still count as the same entry. "
+                                 "Not the same entry: a different ware or type, a different site, or a "
+                                 "candidate that is only a comparison, a parallel from elsewhere or a "
+                                 "literature reference. If several candidates are the same ware, prefer the "
+                                 "one whose quote, typology, date and page agree best with `gold_find`.",
                     criteria=crit),
                 "any": Noul(
-                    instructions="Does at least one entry in `candidates` record the same individual pottery "
-                                 "find as `gold_find` (same object, same excavation context)?",
-                    criteria={"true": "yes, one candidate is this very find",
-                              "false": "no candidate is this find; at most the same ware in general"}),
+                    instructions="Does at least one entry in `candidates` record the same pottery entry as "
+                                 "`gold_find`, i.e. the same ware or type reported as found at the same site "
+                                 "(wording, language and quoted sentence may differ)?",
+                    criteria={"true": "yes, one candidate is this entry",
+                              "false": "no candidate is this entry; at most a different ware, another site, "
+                                       "or only a comparison or literature reference"}),
             })
             a = r.choices["which"]
             self.usage += r.usage.input_tokens
@@ -182,14 +187,15 @@ class Judge:
     def score(self, g, p):
         from typesafe_sdk import Score
         state = {"gold_find": _row_state(g), "candidate": _row_state(p)}
-        key = "score|" + self.model + "|" + json.dumps(state, sort_keys=True)
+        key = "score|" + PROTOCOL + "|" + self.model + "|" + json.dumps(state, sort_keys=True)
 
         def call():
             r = self.client().system_one(state=state, questions={
                 "same": Score(
-                    instructions="Do `gold_find` and `candidate` record the same individual pottery find "
-                                 "from the same excavation? Judge from the source quotes first, then "
-                                 "typology, date and page. Names may differ in language or wording.",
+                    instructions="Is `candidate` the same recorded pottery entry as `gold_find`? An entry is "
+                                 "one ware or type reported as found at a site in an excavation report. The "
+                                 "same entry may be quoted from a different sentence and named in another "
+                                 "language or wording. Judge from ware or type, site, date, page and quotes.",
                     criteria=SCORE_LEVELS)})
             s = r.scores["same"]
             self.usage += r.usage.input_tokens
@@ -199,25 +205,43 @@ class Judge:
 
 
 # ── one-to-one resolution (pure code) ───────────────────────────────────────────
-def resolve(align_results, n_out, match_p=MATCH_P, any_p=ANY_P):
+def equiv_key(r):
+    """Output rows that are interchangeable for the alignment: same ware name and type. Date and site
+    are deliberately NOT part of the identity - they are scored as fields once a pair is formed."""
+    return (ev.keyname(r["pot"]), r["typ"])
+
+
+def resolve(align_results, out_rows, match_p=MATCH_P, any_p=ANY_P):
     """align_results: {gold_idx: {'probs': {out_idx(str): p}, 'any': p}}.
-    Greedy by descending probability; a gold find is matched to its best still-free candidate with
-    p >= match_p, provided the gold's `any` >= any_p. Returns (pairs [(g, o, p)], missing, overclaim)."""
+    A Choice spreads its probability over indistinguishable rows (a finds table lists 'jar Alzey 30'
+    several times), so probabilities are first summed per equivalence class of candidate rows. Then
+    greedy by descending class probability: a gold find takes any still-free member of its best class
+    with summed p >= match_p, provided its `any` >= any_p. Returns (pairs [(g, o, p)], missing, overclaim)."""
+    keys = [equiv_key(r) for r in out_rows]
     triples = []
     for gi, res in align_results.items():
         if res["any"] < any_p:
             continue
+        by_class = {}
         for oi, p in res["probs"].items():
+            k = keys[int(oi)]
+            by_class[k] = by_class.get(k, 0.0) + p
+        for k, p in by_class.items():
             if p >= match_p:
-                triples.append((p, gi, int(oi)))
-    triples.sort(key=lambda t: (-t[0], t[1], t[2]))
+                triples.append((p, gi, k))
+    triples.sort(key=lambda t: (-t[0], t[1], str(t[2])))
     used_g, used_o, pairs = set(), set(), []
-    for p, gi, oi in triples:
-        if gi in used_g or oi in used_o:
+    for p, gi, k in triples:
+        if gi in used_g:
             continue
+        free = [oi for oi in range(len(out_rows)) if keys[oi] == k and oi not in used_o
+                and str(oi) in align_results[gi]["probs"]]
+        if not free:
+            continue
+        oi = max(free, key=lambda i: align_results[gi]["probs"][str(i)])
         used_g.add(gi); used_o.add(oi); pairs.append((gi, oi, p))
     missing = [gi for gi in align_results if gi not in used_g]
-    overclaim = [oi for oi in range(n_out) if oi not in used_o]
+    overclaim = [oi for oi in range(len(out_rows)) if oi not in used_o]
     return pairs, missing, overclaim
 
 
@@ -243,7 +267,7 @@ def run(gold_dir, out_dir, judge, only=None, present_only=False, score_stage=Tru
         with ThreadPoolExecutor(judge.workers) as ex:
             futs = {gi: ex.submit(judge.align, g[gi], [(i, o[i]) for i in cand_lists[gi]]) for gi in cand_lists}
             align = {gi: f.result() for gi, f in futs.items()}
-        pairs, missing, overclaim = resolve(align, len(o))
+        pairs, missing, overclaim = resolve(align, o)
         levels = {}
         if score_stage and pairs:
             with ThreadPoolExecutor(judge.workers) as ex:
