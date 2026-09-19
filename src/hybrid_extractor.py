@@ -393,6 +393,7 @@ def _extract_tables_md(pdf_path) -> str:
                     md = ""
             if md and md.strip():
                 out.append(f"[[p{pi} table {ti}]]\n{md.strip()}")
+    doc.close()
     return "\n\n".join(out)
 
 
@@ -637,6 +638,8 @@ def _date_certainty(date_method, name_cert, has_date):
         return 8, "date read from the passage"
     if dm.startswith("rules+") and dm.endswith("_confirmed"):
         return 6, "date from the rule detector, presence confirmed"
+    if dm.startswith("rules+"):
+        return 5, "date from the rule detector (catalogue entry recovered by registration number)"
     return _DATE_CERT.get(dm, (0, "no date stated"))
 
 
@@ -735,10 +738,10 @@ def _confirm_llm(prompt: str) -> str:
             from src.llm_client import call_claude_cli
             return call_claude_cli(prompt)
         from src.llm_client import call_claude
-        return call_claude(prompt, max_tokens=2000, output_schema=_CONFIRM_SCHEMA)
+        return call_claude(prompt, max_tokens=8000, output_schema=_CONFIRM_SCHEMA)
     # cloud-llama / local-llama: the configured provider (LLM_PROVIDER); never calls Claude.
     from src.llm_client import call_llm
-    return call_llm(prompt, max_tokens=2000)
+    return call_llm(prompt, max_tokens=8000)
 
 
 def _drange(ds, de) -> str:
@@ -747,6 +750,27 @@ def _drange(ds, de) -> str:
     if ds == "" and de == "":
         return "no date"
     return f"{ds if ds != '' else '?'}..{de if de != '' else '?'}"
+
+
+def _parse_confirm_labels(raw: str, n_candidates: int) -> Dict[int, Tuple[str, float]]:
+    """Parse the confirm step's {results:[{index,label,confidence}]} reply into {index: (label, conf)}.
+    Tolerates code fences and prose around the JSON (slices from the first '{' to the last '}').
+    A reply that still cannot be parsed (e.g. truncated at max_tokens) is reported on the console
+    instead of silently rejecting every candidate."""
+    labels: Dict[int, Tuple[str, float]] = {}
+    text = (raw or "").strip()
+    text = re.sub(r"^```[a-zA-Z]*\s*|\s*```$", "", text).strip()
+    a, b = text.find("{"), text.rfind("}")
+    if a != -1 and b > a:
+        text = text[a:b + 1]
+    try:
+        data = json.loads(text)
+        for r in (data.get("results", []) if isinstance(data, dict) else []):
+            labels[int(r["index"])] = (r.get("label", ""), float(r.get("confidence", 0)))
+    except (ValueError, AttributeError, TypeError, KeyError):
+        print(f"[Hybrid] WARNING: 5c confirm reply unparseable ({len(text)} chars); "
+              f"all {n_candidates} rule candidate(s) rejected. Reply head: {text[:120]!r}")
+    return labels
 
 
 def _rule_confirm_merge(rows, rule_csv, report_text, lookup, report_id, cache_path=None):
@@ -802,13 +826,7 @@ def _rule_confirm_merge(rows, rule_csv, report_text, lookup, report_id, cache_pa
                        .replace("__CANDIDATES__", listing)
                        .replace("__REPORT__", report_text[:_chunk_budget(backend)]))
     # #2/#6 parse {results:[{index,label,confidence}]}
-    labels = {}   # index -> (label, confidence)
-    try:
-        data = json.loads(raw.strip().strip("`"))
-        for r in (data.get("results", []) if isinstance(data, dict) else []):
-            labels[int(r["index"])] = (r.get("label", ""), float(r.get("confidence", 0)))
-    except (ValueError, AttributeError, TypeError, KeyError):
-        pass
+    labels = _parse_confirm_labels(raw, len(candidates))
     # cache every candidate's label+confidence so the THR knob can be swept without re-calling
     if cache_path:
         try:
@@ -965,7 +983,8 @@ def _row_from_rule_find(rf: Dict, lookup: Dict, report_id: str, backend: str) ->
     date_cert, date_reason = _date_certainty("typology" if g else f"rules+{backend}", name_cert,
                                              ds != "" or de != "")
     return {
-        "report_id": report_id, "site_name": (rf.get("site") or "").strip(), "page": _to_int(rf.get("page")),
+        "report_id": report_id, "site_name": (rf.get("site") or rf.get("site_name") or "").strip(),
+        "page": _to_int(rf.get("page")),
         "pottery": pot, "typology": typ, "term_found": typ or pot, "term_found_normalized_en": pot,
         "quantity": "", "start_date": ds, "end_date": de,
         "date_method": f"rules+{backend}", "context_label": "present",
