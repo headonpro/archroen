@@ -3,6 +3,8 @@ old_rep_1,0,,,0.150,0.460,missing,Roman ware,,,,"Ze waren verspreid over eene gr
 eeuwen onzer jaa",
 old_rep_1,1,,,0.200,0.610,missing,Terra sigillata,,,,"Ze waren verspreid over eene groote uitgestrektheid en v/ijzen er op, dat'daar ter plaatse in de eerste
 eeuwen onzer jaa",
+old_rep_1,,0,,,,overclaim,,Terra sigillata,,,,een drietal van terra sigillata
+old_rep_1,,1,,,,overclaim,,Roman pottery,,,,Romeinsch aardewerk
 old_rep_2,0,0,1.000,0.970,0.990,same,Terra sigillata,Terra sigillata,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
 old_rep_2,1,1,1.000,0.970,0.990,same,Belgic ware,Belgic ware,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
 old_rep_2,3,3,0.990,0.950,0.990,same,Smooth-walled ware,Smooth-walled pottery,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,"AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en ruwwandig aardewerk."
@@ -29,6 +31,8 @@ old_rep_4,10,12,0.960,0.970,0.950,same,Mortarium without pouring spout,Mortarium
 old_rep_4,0,0,0.750,0.880,0.720,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18,Dragendorff 18,"terra sigillata van de typen Dragendorff 18/ 31, 33, 37"
 old_rep_4,8,,,0.850,0.740,missing,Coarse ware,,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",
 old_rep_4,13,,,0.900,0.630,missing,Terra sigillata,,,,terra sigillatascherven verspreid,
+old_rep_4,,1,,,,overclaim,,Terra sigillata plate,,Dragendorff 31,,"terra sigillata van de typen Dragendorff 18/ 31, 33, 37"
+old_rep_4,,10,,,,overclaim,,Mortarium,,,,wrijfschaalfragmenten met en zonder uitschenkrand
 old_rep_5,4,4,1.000,0.970,0.990,same,Urn,Urn,,,"kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag","schaaltjes, kommetjes, bekertjes, kruikjes, urntjes"
 old_rep_5,0,0,0.990,0.940,0.980,same,Dish,Dish,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","schaaltjes, kommetjes, bekertjes, kruikjes, urntjes"
 old_rep_5,2,2,0.990,0.940,0.980,same,Beaker,Beaker,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","schaaltjes, kommetjes, bekertjes, kruikjes, urntjes"
@@ -73,6 +77,7 @@ table_1,35,24,0.610,0.870,0.550,same,Plate,Plate,,,jar,plate
 table_1,36,18,0.610,0.870,0.550,same,Plate,Plate,,,jar,plate
 table_1,17,36,0.610,0.940,0.590,same,Jar,Jar,,,jug,jar
 table_1,9,,,0.970,0.950,missing,Dolium,,,,jug,
+table_1,,13,,,,overclaim,,Bowl,,,,bowl
 table_2,0,1,1.000,0.980,0.990,same,Pottery,Pottery,,,Romeinse tijd: aardewerk.,Romeinse tijd: aardewerk.
 table_2,6,2,1.000,0.980,0.990,same,Terra sigillata,Terra sigillata,,,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)","Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa,"
 table_2,8,4,1.000,0.960,0.990,same,Cooking pot,Cooking pot,,,"Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar)","Romeinse tijd: aardewerk (terra sigillata, dolia, kookpotten, kruikwaar), bouwmateriaal vermoedelijk een Romeinse villa,"
@@ -137,6 +142,11 @@ table_5,4,,,0.750,0.510,missing,Terra nigra pot,,,,pot,
 table_5,5,,,0.960,0.790,missing,Terra nigra,,,,onbekend,
 table_5,8,,,0.370,0.570,missing,Indeterminate,,,,indet,
 table_5,9,,,0.640,0.400,missing,Beaker,,,,beker,
+table_5,,4,,,,overclaim,,Pot,,,,pot
+table_5,,5,,,,overclaim,,Unknown,,,,onbekend
+table_5,,8,,,,overclaim,,Cork urn,,,,indet
+table_5,,9,,,,overclaim,,White beaker,,,,wit beker
+table_5,,11,,,,overclaim,,Handmade cork urn,,Holwerda 94,,kurkurn van het type Holwerda 94
 ocr_1,0,0,0.990,0.940,0.990,same,Arretine ware plate,Plate,Conspectus 11,Consp. 11 (Haltern 1b/Service Ia),Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia),Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia)
 ocr_2,0,0,1.000,0.990,1.000,same,22-3-6/4056,22-3-6/4056,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",22-3-6/4056
 ocr_2,1,1,1.000,0.990,1.000,same,513-2/20-1-67,513-2/20-1-67,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",513-2/20-1-67
@@ -160,6 +170,7 @@ ocr_4,7,8,1.000,0.980,1.000,same,Terra sigillata,Terra sigillata,,,Verder nog ee
 ocr_4,8,7,0.980,0.900,0.980,same,Native ware,Native Roman ware,,,Verder nog een dertigtal aardewerkfragmenten waaronder terrasigillata en inheems aardewerk.,Verder nog een dertigtal aardewerkfragmenten waaronder terra sigillata en inheems aardewerk.
 ocr_5,0,0,1.000,0.850,0.990,same,Beaker,Drink beaker,,,"Deze vroeg-Romeinse drinkbeker van aardewerk is in Coriovallum gevonden, maar gemaakt in het Franse Lyon.","Deze vroeg-Romeinse drinkbeker van aardewerk is in Coriovallum gevonden, maar gemaakt in het Franse Lyon."
 ocr_5,1,,,0.720,0.780,missing,Beaker,,,,Bijzonder is de vroege datering van dit type bekers: ze werden voornamelijk tijdens het bewind van keizer Augustus gemaa,
+ocr_5,,1,,,,overclaim,,ACO beaker,,,,Deze zijn van een ACO-beker en schuin tegen-over het badhuis gevonden.
 new_rep_1,6,6,0.860,0.570,0.830,different,Baetican olive oil amphora,Baetican olive oil amphora,Dressel 20,Dressel 20,een oor van een olijfolieamfoor Dressel 20,oor van een olijfolieamfoor Dressel 20
 new_rep_1,8,8,0.830,0.530,0.800,different,Dolium,Dolium,,,"een wandfragment van een dolium versierd met gladde ribbels,",wandfragment van een dolium versierd met gladde ribbels
 new_rep_1,0,,,0.470,0.670,missing,Beaker,,,,een stuk van een geverfde beker bestrooid met kleikorreltjes. Deze beker heeft een wit baksel met een zwarte verflaag… H,
@@ -171,6 +182,14 @@ new_rep_1,5,,,0.460,0.530,missing,Olive oil amphora,,,,In de sporen S5 en S6 die
 new_rep_1,7,,,0.420,0.550,missing,Mortarium,,Brunsting 37,,en de rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren,
 new_rep_1,9,,,0.480,0.490,missing,Mortarium,,,,een rand van een wrijfschaal met horizontale rand uit de 2e eeuw of later,
 new_rep_1,10,,,0.100,0.980,missing,Pottery,,,,en een verploegd en niet herkenbaar fragment aardewerk.,
+new_rep_1,,0,,,,overclaim,,Painted beaker,,,,een stuk van een geverfde beker bestrooid met kleikorreltjes
+new_rep_1,,1,,,,overclaim,,Gauloise amphora,,,,een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise
+new_rep_1,,2,,,,overclaim,,Red coarse ware,,,,Twee rode ruwwandige fragmenten
+new_rep_1,,3,,,,overclaim,,White fine ware,,,,een sterk verweerd wit gladwandig fragment
+new_rep_1,,4,,,,overclaim,,Dolium,,,,een rand van een groot bolrond voorraadvat (dolium)
+new_rep_1,,5,,,,overclaim,,Olive oil amphora,,,,een fragment van een olijfolieamfoor
+new_rep_1,,7,,,,overclaim,,Mortarium,,,,rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren
+new_rep_1,,9,,,,overclaim,,Mortarium,,,,rand van een wrijfschaal met horizontale rand uit de 2e eeuw of later
 new_rep_2,0,0,1.000,0.970,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"--/89-0-0/8128, Drag. 29","22.6.1 Decorations South Gaul --/89-0-0/8128, Drag. 29 (Fig. 22.6)."
 new_rep_2,1,1,1.000,0.980,0.970,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"304-1/20-5-8, Drag. 29","304-1/20-5-8, Drag. 29 (Fig. 22.6)."
 new_rep_2,2,2,1.000,0.970,0.980,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 29,Dragendorff 29,"399-2/1953-2.8, Drag. 29","399-2/1953-2.8, Drag. 29 (Fig. 22.6)."
@@ -249,6 +268,8 @@ new_rep_2,21,,,0.920,0.380,missing,Terra sigillata decorated bowl,,Dragendorff 3
 new_rep_2,41,,,0.930,0.960,missing,Terra sigillata,,Dragendorff 27g,,"--/7-1-25/197, Drag. 27g",
 new_rep_2,47,,,0.930,0.470,missing,Terra sigillata plate,,Dragendorff 18/31,,"--/0-0-0/10402, Drag. 18/31 or Drag. 31",
 new_rep_2,50,,,0.950,0.510,missing,Terra sigillata plate,,Dragendorff 18/31,,"812-2/27-3-7/5184, Drag. 18/31",
+new_rep_2,,39,,,,overclaim,,Terra sigillata plate,,Dragendorff 18/31 or Dragendorff. 31,,"--/0-0-0/10402, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,41,,,,overclaim,,Terra sigillata plate,,Dragendorff 18/31,,"812-2/27-3-7/5184, Drag. 18/31 (Fig. 22.11)."
 new_rep_3,0,0,1.000,0.980,1.000,same,Terra sigillata,Terra sigillata,,,"Among the pottery, terra sigillata dates from the 2nd century","Among the pottery, terra sigillata dates from the 2nd century"
 new_rep_3,1,1,1.000,0.990,1.000,same,Painted cup,Painted cup,,,painted cups from the 2nd and 3rd centuries,painted cups from the 2nd and 3rd centuries
 new_rep_3,2,2,1.000,0.970,1.000,same,Amphorae,Amphora,,,amphorae (of which one comes from Campania),amphorae (of which one comes from Campania) date to the 1st century
@@ -268,3 +289,4 @@ new_rep_5,2,,,0.420,0.390,missing,Pottery,,,,20 aardewerk Romeinse tijd t/m Voll
 new_rep_5,3,,,0.680,0.790,missing,Pottery,,,,21 aardewerk Romeinse tijd,
 new_rep_5,5,,,0.630,0.810,missing,Pottery,,,,25 aardewerk Romeinse tijd,
 new_rep_5,6,,,0.390,0.290,missing,Pottery,,,,26 aardewerk Romeinse tijd t/m Volle Middeleeuwen,
+new_rep_5,,2,,,,overclaim,,Pottery,,,,aardewerk

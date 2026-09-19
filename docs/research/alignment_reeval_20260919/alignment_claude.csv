@@ -73,6 +73,10 @@ table_1,7,,,0.920,0.310,missing,Bowl/Jar,,,,jar,
 table_1,9,,,0.970,0.960,missing,Dolium,,,,jug,
 table_1,17,,,0.860,0.220,missing,Jar,,,,jug,
 table_1,36,,,0.790,0.280,missing,Plate,,,,jar,
+table_1,,11,,,,overclaim,,Plate,,,,plate - 1 1 -
+table_1,,13,,,,overclaim,,Bowl,,,,bowl - 1 1 -
+table_1,,18,,,,overclaim,,Plate,,,,plate - 1 1 -
+table_1,,24,,,,overclaim,,Plate,,,,plate - 1 1 1
 table_2,0,2,1.000,0.980,0.960,same,Pottery,Pottery,,,Romeinse tijd: aardewerk.,Romeinse tijd: aardewerk.
 table_2,1,3,1.000,0.970,0.950,same,Pottery,Pottery,,,"Rond het gebouw werden enkele paalgaten en kuilen teruggevonden, met in de kuilen aardewerk en bouwmateriaal.",Midden-Romeinse tijd: agrarisch gebouw (waarschijnlijk graanschuur). Rond het gebouw werden enkele paalgaten en kuilen t
 table_2,4,6,1.000,0.980,1.000,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk Romeinse villa, concentratie dakpanfragmenten,
@@ -87,6 +91,8 @@ table_2,5,4,0.800,0.500,0.540,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelij
 table_2,2,7,0.710,0.500,0.330,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin,aardewerk.","Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
 table_2,3,,,0.450,0.430,missing,Pottery,,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk",
 table_2,12,,,0.490,0.660,missing,Handmade ware pot,,,,een aantal bodem- en wandscherven van een pot in handgemaakt aardewerk,
+table_2,,1,,,,overclaim,,Handmade ware,,,,een aantal bodem- en wandscherven van een pot in handgemaakt aardewerk
+table_2,,5,,,,overclaim,,Pottery,,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
 table_3,5,5,1.000,0.980,0.990,same,Amphora,Amphora,,,Amphorae,Amphorae 11.1 11.1
 table_3,7,6,1.000,0.990,0.990,same,Mortarium,Mortarium,,,Mortaria,Mortaria 0.7 0.7
 table_3,0,0,0.990,0.970,0.990,same,Arretina,Arretina,,,Arretina,Arretina 2.0 2.0
@@ -157,6 +163,7 @@ table_5,4,4,0.700,0.940,0.660,same,Terra nigra pot,Terra nigra pot,,,pot,pot 1 1
 table_5,6,6,0.580,0.960,0.470,same,Terra nigra,Terra nigra,,,indet,indet 106
 table_5,5,5,0.580,0.960,0.450,same,Terra nigra,Terra nigra,,,onbekend,onbekend 1 1
 table_5,8,,,0.410,0.540,missing,Indeterminate,,,,indet,
+table_5,,8,,,,overclaim,,Cork urn,,,,indet 1
 ocr_1,0,0,1.000,0.980,0.990,same,Arretine ware plate,Arretine ware plate,Conspectus 11,Conspectus 11,Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia),Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia) and dated to the late 1st c
 ocr_2,0,0,1.000,0.990,1.000,same,22-3-6/4056,22-3-6/4056,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.","Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont. (source: D.S. Habermehl)
 22-3-6/4056"
@@ -168,6 +175,7 @@ ocr_2,5,6,1.000,0.990,1.000,same,768-1/15-2-19,768-1/15-2-19,,,"Fig. XVI.2. Voer
 ocr_2,6,2,1.000,0.990,0.990,same,768-2/15-2-19,768-2/15-2-19,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",768-2/15-2-19
 ocr_2,7,4,0.990,0.990,0.990,same,791-1/95-2-22,791-1/95-2-22,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.",791-1/95-2-22
 ocr_3,0,,,0.220,0.780,missing,Roman ware,,,,"fragmenten gevonden van Romeinse!) aardewerk, waarschynlyk uit de 2c eeuw na Christus.",
+ocr_3,,0,,,,overclaim,,Roman ware,,,,Bij de nivelseringswerken op 't voetbalterrein van Juliana zijn door de werkleden fragmenten gevonden van Romeinsch aard
 ocr_4,0,0,1.000,0.990,1.000,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"Een terra-sigillata schaaltje in fragment type Drag 18/ 31, met de
 pottenbakkersstempel: COSI. RVTIN.","Een terra sigillata schaaltje in fragment type Drag. 18/31, met de pottenbakkersstempel: COSI. RVTIN."
 ocr_4,1,1,1.000,0.950,0.960,same,Terra sigillata,Terra sigillata,,,Een terra-sigillata bodemfragment waarop aan de buitenzijde ingekrast:,Een terra sigillata bodemfragment waarop aan de buitenzijde ingekrast: KOVIN.
@@ -248,6 +256,7 @@ new_rep_2,30,30,0.970,0.950,0.950,same,Terra sigillata decorated bowl,Terra sigi
 new_rep_2,9,9,0.960,0.940,0.950,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/27-4-7/5351, Drag. 37","--/27-4-7/5351, Drag. 37 (Fig. 22.6)."
 new_rep_2,6,6,0.940,0.960,0.910,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/13-3-9/1571, Drag. 37","--/13-3-9/1571, Drag. 37 (Fig. 22.6)."
 new_rep_2,5,5,0.930,0.950,0.880,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"--/13-3-15/1588, Drag. 37","--/13-3-15/1588, Drag. 37 (Fig. 22.6)."
+new_rep_2,,22,,,,overclaim,,Terra sigillata decorated bowl,,Dragendorff 37,,"--/15-0-0/2098, Drag. 37 (Fig. 22.8)."
 new_rep_3,0,0,1.000,0.990,1.000,same,Terra sigillata,Terra sigillata,,,"Among the pottery, terra sigillata dates from the 2nd century","Among the pottery, terra sigillata dates from the 2nd century"
 new_rep_3,1,1,1.000,0.990,1.000,same,Painted cup,Painted cup,,,painted cups from the 2nd and 3rd centuries,painted cups from the 2nd and 3rd centuries
 new_rep_3,2,2,1.000,0.970,1.000,same,Amphorae,Amphora,,,amphorae (of which one comes from Campania),amphorae (of which one comes from Campania) date to the 1st century
@@ -259,6 +268,7 @@ new_rep_4,1,3,1.000,0.990,1.000,same,Terra sigillata plate,Terra sigillata plate
 new_rep_4,2,2,1.000,0.980,1.000,same,Terra sigillata cup,Terra sigillata cup,Dragendorff 33,Dragendorff 33,"The terra sigillata comprises cups bowls Drag.37,Drag.33,","The terra sigillata comprises cups bowls Drag. 37, Drag. 33"
 new_rep_4,3,1,1.000,0.980,1.000,same,Terra sigillata decorated bowl,Terra sigillata decorated bowl,Dragendorff 37,Dragendorff 37,"The terra sigillata comprises cups bowls Drag. 37,",The terra sigillata comprises cups bowls Drag. 37
 new_rep_4,4,4,1.000,0.990,1.000,same,Terra sigillata mortarium,Terra sigillata mortarium,Dragendorff 45,Dragendorff 45,band mortaria Drag. 45,mortaria Drag. 45
+new_rep_4,,0,,,,overclaim,,Terra sigillata,,,,"Only terra sigillata has been collected. The terra sigillata comprises cups bowls Drag. 37, Drag. 33, plates Drag.18/31 "
 new_rep_5,7,5,1.000,0.960,0.990,same,Painted ware,Painted ware,,,29 aardewerk Romeinse tijd,"29 aardewerk Romeinse tijd 1 geverfd aardewerk, techniek B, raadjesversiering"
 new_rep_5,3,2,0.990,0.890,0.960,same,Pottery,Pottery,,,21 aardewerk Romeinse tijd,21 aardewerk Romeinse tijd 1
 new_rep_5,5,4,0.990,0.890,0.970,same,Pottery,Pottery,,,25 aardewerk Romeinse tijd,25 aardewerk Romeinse tijd 1

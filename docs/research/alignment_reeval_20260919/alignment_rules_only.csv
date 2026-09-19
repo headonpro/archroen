@@ -29,6 +29,18 @@ ruwwandig"
 old_rep_2,1,,,0.810,0.400,missing,Belgic ware,,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,
 old_rep_2,2,,,0.250,0.390,missing,Colour-coated ware,,,,Bij het graven van een wetering kwamen Romeinse vondsten aan het licht.,
 old_rep_2,6,,,0.460,0.490,missing,Pottery,,,,Verder waren er scherven uit het midden van dezelfde eerste eeuw na Christus.,
+old_rep_2,,0,,,,overclaim,,Pottery,,,,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig"
+old_rep_2,,2,,,,overclaim,,Belgian pottery,,,,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig"
+old_rep_2,,3,,,,overclaim,,Varnished pottery,,,,"Het
+betreft hier:
+AARDEWERK: terra sigillata, Belgisch aardewerk, gevernist aardewerk, gladwandig aardewerk en
+ruwwandig"
 old_rep_3,1,2,0.870,0.730,0.840,same,Handmade pottery,Bowl,,,een kom van handgemaakt aardewerk waarvoor rechtstreekse parallellen alleen in noord-Nederland te vinden zijn. Zij zijn ,kom van handgemaakt aardewerk
 old_rep_3,0,1,0.860,0.860,0.820,same,Terra sigillata ,Bowl,,,"Het dateert uit het midden van de 4e eeuw en leverde, behalve botresten en een kom van met radstempels versierde terra s",kom van met radstempels versierde terra sigillata
 old_rep_3,2,4,0.720,0.740,0.650,same,Terra sigillata ,Terra sigillata,,,"aardewerk, de terra sigillata met radstempelversiering. Daarbij zijn er maar twee die in de vroege 4e eeuw gemaakt zijn","Dat dit laatste geen toeval is
@@ -36,6 +48,11 @@ wordt bovendien bewezen door bijna twintig fragmenten vrij goed dateerbaar
 aardewerk, de "
 old_rep_3,3,,,0.640,0.520,missing,Terra sigillata ,,Hübener Group 3,,"de rest is dateerbaar vanaf het midden van de 4e eeuw (Hubener 1968, groepen 3-6).",
 old_rep_3,4,,,0.290,0.800,missing,Pottery,,,,scherven uit de IJzertijd,
+old_rep_3,,0,,,,overclaim,,Pottery,,,,"In ieder geval zijn ze te klein om te kunnen
+denken dat er aardewerk in gebakken is en ontbreken vondsten die bijvoor-be"
+old_rep_3,,3,,,,overclaim,,Pottery,,,,"Dat dit laatste geen toeval is
+wordt bovendien bewezen door bijna twintig fragmenten vrij goed dateerbaar
+aardewerk, de "
 old_rep_4,12,8,0.990,0.860,0.900,same,Coarse ware,Rough-walled pottery,,,ruwwandige,"Hieronder bevonden zich de vol·
 gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aard"
 old_rep_4,6,6,0.980,0.870,0.980,same,Terra rubra,Terra rubra,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm","Hieronder bevonden zich de vol·
@@ -60,6 +77,12 @@ old_rep_4,4,,,0.830,0.940,missing,Colour-coated ware without barbotine decoratio
 old_rep_4,8,,,0.740,0.410,missing,Coarse ware,,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",
 old_rep_4,9,,,0.390,0.370,missing,Mortarium with pouring spout,,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",
 old_rep_4,10,,,0.470,0.380,missing,Mortarium without pouring spout,,,,"gevernist aardewerk met en zonder barbotineversiering, terra nigra, terra rubra, gladwandig, ruwwandig, wrijfschaalfragm",
+old_rep_4,,3,,,,overclaim,,Pottery,,,,"Op 16 en 17 maart 1967 werden tijdens grondwerkzaamheden op de per·
+celen E 2283, 2284 en 5209 in de Uilegats te Heerlen"
+old_rep_4,,9,,,,overclaim,,Grinding bowl,,,,"Hieronder bevonden zich de vol·
+gen de soorten : terra sigillata van de typen Dragendorff 18/ 31, 33, 37, gevernist aard"
+old_rep_4,,11,,,,overclaim,,Rough-walled pottery,,,,"Over het gehele perceel liggen dakpanfragmenten, ruwwandige en terra
+sigillatascherven verspreid."
 old_rep_5,4,4,0.870,0.740,0.840,same,Urn,Urns,,,"kommetjes, bekertjes, kruikjes, urntjes en andere voorwerpen voor den dag","Bij het wegnemen van den grond
 door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, u"
 old_rep_5,2,2,0.680,0.530,0.610,different,Beaker,Beakers,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,","Bij het wegnemen van den grond
@@ -67,6 +90,12 @@ door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kr
 old_rep_5,0,,,0.470,0.390,missing,Dish,,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,",
 old_rep_5,1,,,0.490,0.530,missing,Bowl,,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,",
 old_rep_5,3,,,0.410,0.520,missing,Jug,,,,"De voorwerpen, welke uit de tweede eeuw na Christus schijnen te dagteekenen,",
+old_rep_5,,0,,,,overclaim,,Dishes,,,,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, u"
+old_rep_5,,1,,,,overclaim,,Bowls,,,,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, u"
+old_rep_5,,3,,,,overclaim,,Jugs,,,,"Bij het wegnemen van den grond
+door den excavateur kwamen uit de bovenlaag schaaltjes, kommetjes, bekertjes, kruikjes, u"
 table_1,3,3,0.940,0.770,0.540,same,Coarse ware bowl,Coarse ware bowl,Niederbieber 104,NB 104,bowl,"Ware group
 Fabric
 Form
@@ -543,6 +572,21 @@ table_1,27,,,0.430,0.350,missing,Jug,,,,jar,
 table_1,33,,,0.450,0.390,missing,Plate,,,,jar,
 table_1,35,,,0.450,0.390,missing,Plate,,,,jar,
 table_1,36,,,0.450,0.390,missing,Plate,,,,jar,
+table_1,,23,,,,overclaim,,Amphora,,,,amphora
+table_1,,24,,,,overclaim,,Bowl/jar,,,,bowl/jar
+table_1,,26,,,,overclaim,,Jar,,,,jar
+table_1,,28,,,,overclaim,,Plate,,,,plate
+table_1,,29,,,,overclaim,,Bowl,,,,bowl
+table_1,,30,,,,overclaim,,Bowl/jar,,,,bowl/jar
+table_1,,31,,,,overclaim,,Jug,,,,jug
+table_1,,32,,,,overclaim,,Plate,,,,plate
+table_1,,33,,,,overclaim,,Jar,,,,jar
+table_1,,34,,,,overclaim,,Jar,,,,jar
+table_1,,35,,,,overclaim,,Plate,,,,plate
+table_1,,36,,,,overclaim,,Jar,,,,jar
+table_1,,37,,,,overclaim,,Jar,,,,jar
+table_1,,38,,,,overclaim,,Jar,,,,jar
+table_1,,39,,,,overclaim,,Jar,,,,jar
 table_2,0,0,1.000,0.970,0.990,same,Pottery,Pottery,,,Romeinse tijd: aardewerk.,Romeinse tijd: aardewerk.
 table_2,2,1,1.000,0.980,0.990,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin,aardewerk.","Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
 table_2,3,2,1.000,0.970,0.980,same,Pottery,Pottery,,,"Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk","Romeinse tijd: vermoedelijk een Romeinse villa, concentratie bouwpuin, aardewerk."
@@ -747,6 +791,37 @@ table_4,14,,,0.920,0.930,missing,Amphora,,,,unknown,
 table_4,25,,,0.430,0.820,missing,Beaker,,,,ࡼne ware beakers,
 table_4,26,,,0.130,0.910,missing,Cooking pot,,,,cooking pots,
 table_4,27,,,0.350,0.620,missing,Pot,,,,pot,
+table_4,,12,,,,overclaim,,Amphorae,,,,"Lindhagen 2009; Carre et al. 2014)
+wine
+4
+Dressel 2-5
+wine
+7
+Camulodunum 184
+Pompeii 38
+unknown
+unknown
+wine
+6
+wine
+1
+wi"
+table_4,,16,,,,overclaim,,Pottery,,Oberaden 48-49,,"In addition, flagons Stuart 133/Oberaden 52 (fig. 2.14), Stuart 131/
+Oberaden 48-49 (fig. 2.15) and the so-called 'honey"
+table_4,,21,,,,overclaim,,Pompeian red ware,,,,"Rare are the Oberaden 21 plates in Pompeian red
+ware (Niemeijer 2017, 17), which were used to bake
+or heat food in an ov"
+table_4,,22,,,,overclaim,,Mortaria,,,,"On larger scale, sherds
+of mortaria with vertical rim Haltern 59"
+table_4,,24,,,,overclaim,,handmade,,,,"In
+addition, several fragments of large handmade dolia
+Stuart 147 with a wheelthrown rim with a black coating."
+table_4,,25,,,,overclaim,,Dolia,,,,"In
+addition, several fragments of large handmade dolia
+Stuart 147 with a wheelthrown rim with a black coating."
+table_4,,26,,,,overclaim,,Dolia,,,,"Whether these early dolia
+came from the löss area between Tienen in Belgium and
+Cologne in Germany (Borgers 2023, 628) w"
 table_5,0,6,0.990,0.930,0.990,same,Terra nigra flask-shaped pot,Terra nigra flask-shaped pot,Holwerda 25,holwerda 25,Holwerda 25,"Mogelijk
 zijn de scherven afkomstig van een
 Belgische beker.
@@ -813,6 +888,64 @@ table_5,4,,,0.740,0.160,missing,Terra nigra pot,,,,pot,
 table_5,6,,,0.890,0.300,missing,Terra nigra,,,,indet,
 table_5,8,,,0.580,0.420,missing,Indeterminate,,,,indet,
 table_5,9,,,0.810,0.220,missing,Beaker,,,,beker,
+table_5,,1,,,,overclaim,,Terra rubra,,,,"Van terra rubra is op de Holzkuil geen enkel
+fragment aangetroffen."
+table_5,,2,,,,overclaim,,Terra rubra,,,,"Dat zou kunnen
+komen vanwege het feit dat terra rubra
+vroeg in de 1e eeuw voorkomt en verdwijnt
+rond de jaren 70. Deze v"
+table_5,,4,,,,overclaim,,Terra nigra,,,,"Naast de kwalitatief goede terra nigra uit de
+1e eeuw en de wat mindere producten uit de
+2e en begin 3e eeuw bestaat er "
+table_5,,5,,,,overclaim,,Terra nigra,,,,"van deze late terra nigra en wel een deukbe-ker van het type Niederbieber 33, die door"
+table_5,,11,,,,overclaim,,Terra nigra,,,,terra nigra
+table_5,,12,,,,overclaim,,Beaker,,,,Belgische beker.
+table_5,,13,,,,overclaim,,pot,,,,pot
+table_5,,14,,,,overclaim,,onbekend,,,,onbekend
+table_5,,15,,,,overclaim,,indet,,,,indet
+table_5,,16,,,,overclaim,,indet,,,,indet
+table_5,,17,,,,overclaim,,Beaker,,,,beker
+table_5,,18,,,,overclaim,,Cork urn,,,,kurkurn die tijdens opgravingen op
+table_5,,19,,,,overclaim,,Pottery,,,,"Het ontleent zijn vor-menscala aan zowel het inheemse aardewerk
+als aardewerk van mediterrane origine (zoals
+terra sigil"
+table_5,,20,,,,overclaim,,Terra sigillata,,,,"Het ontleent zijn vor-menscala aan zowel het inheemse aardewerk
+als aardewerk van mediterrane origine (zoals
+terra sigil"
+table_5,,21,,,,overclaim,,Terra nigra,,,,"De meest voor-komende soorten baksels zijn terra nigra
+(wit/grijs baksel met een grijze/zwarte
+deklaag) en terra rubra ("
+table_5,,22,,,,overclaim,,Terra rubra,,,,"De meest voor-komende soorten baksels zijn terra nigra
+(wit/grijs baksel met een grijze/zwarte
+deklaag) en terra rubra ("
+table_5,,23,,,,overclaim,,Cork urns,,,,"Daarnaast wordt de zogenaamde ‘kurkurnen’
+ook tot de Belgische waar gerekend."
+table_5,,24,,,,overclaim,,Terra nigra,,,,"aar in Nijmegen uit 1941 als het type 66
+beschreven is.16 In de kelder zijn eveneens
+nog een paar ‘flinters’ aangetroffe"
+table_5,,25,,,,overclaim,,Terra nigra,,,,"De scherven waren
+echter verbrand en erg verweerd waardoor
+het onduidelijk blijft of het daadwerkelijk om
+terra nigra ga"
+table_5,,26,,,,overclaim,,Painted beakers,,,,"De scherven waren
+echter verbrand en erg verweerd waardoor
+het onduidelijk blijft of het daadwerkelijk om
+terra nigra ga"
+table_5,,27,,,,overclaim,,Terra nigra,,,,"De late terra nigra vormen dateren
+vanaf de 3e eeuw tot in de 4e eeuw.17
+Een aparte groep wordt gevormd door de
+zogenaam"
+table_5,,28,,,,overclaim,,Cork urns,,,,"De late terra nigra vormen dateren
+vanaf de 3e eeuw tot in de 4e eeuw.17
+Een aparte groep wordt gevormd door de
+zogenaam"
+table_5,,29,,,,overclaim,,Cork urns,,,,"(Holwerda 1941, type 94). De latere exempla-ren (Holwerda 1941, type 75) komen in ver-schillende baksels voor. Kurkurnen"
+table_5,,30,,,,overclaim,,Cork urn,,,,"Kurkurnen dienden
+waarschijnlijk als transportmiddel van ver-schillende producten, mogelijk delicatessen.18
+Van een ‘ech"
+table_5,,31,,,,overclaim,,Beakers,,,,"aar in Nijmegen uit 1941 als het type 66
+beschreven is.16 In de kelder zijn eveneens
+nog een paar ‘flinters’ aangetroffe"
 ocr_1,0,0,0.980,0.770,0.970,same,Arretine ware plate,Terra sigillata plate,Conspectus 11,Haltern 1b,Pendant made of a rim fragment probably of a plate of form Consp. 11 (Haltern 1b/Service Ia),"0
 2 cm
 Fig. 4. Pendant made of a rim fragment probably of a plate
@@ -826,6 +959,10 @@ ocr_2,6,2,1.000,0.970,0.990,same,768-2/15-2-19,768-2/15-2-19,,,"Fig. XVI.2. Voer
 ocr_2,7,4,1.000,0.970,1.000,same,791-1/95-2-22,791-1/95-2-22,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.","Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont. (source: D.S. Habermehl)"
 ocr_2,0,0,0.990,0.970,0.990,same,22-3-6/4056,22-3-6/4056,,,"Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont.","Fig. XVI.2. Voerendaal-Ten Hove. Examples of Late Roman vessels, cont. (source: D.S. Habermehl)"
 ocr_3,0,,,0.160,0.500,missing,Roman ware,,,,"fragmenten gevonden van Romeinse!) aardewerk, waarschynlyk uit de 2c eeuw na Christus.",
+ocr_3,,0,,,,overclaim,,Plates,,,,"dit hoogst gewichtige sociale werk
+sympathisceren millen, vragen om de volgende
+artikelen: lakens, kussensloopen, handdo"
+ocr_3,,1,,,,overclaim,,Pottery,,,,"gevonden van Romeinsch aardewerk, schijnlijk uit de 2e eeuw na Christus Een on-derzoek zal worden ingesteld door deskund"
 ocr_4,0,0,0.990,0.930,0.990,same,Terra sigillata plate,Terra sigillata plate,Dragendorff 18/31,Dragendorff 18/31,"Een terra-sigillata schaaltje in fragment type Drag 18/ 31, met de
 pottenbakkersstempel: COSI. RVTIN.","Nadat er ongeveer 80 cm. grond van de bovenzijde van het betrokken
 terrein waren verwijderd, werden de volgende romeinse"
@@ -838,12 +975,45 @@ ocr_4,4,11,0.880,0.850,0.870,same,Terra sigillata decorated bowl,Terra sigillata
 ocr_4,3,10,0.830,0.750,0.810,same,Terra sigillata mortarium,Terra sigillata,Dragendorff 45,,Een terra-sigillata kom in fragment type Drag 45.,5. Een terra sigillata kom in fragment type Drag. 45.
 ocr_4,5,5,0.820,0.800,0.800,review,Terra sigillata decorated bowl,Terra sigillata,Dragendorff 37,,"Drie versierde terra-sigillata fragmenten Drag 29 en 37, met eierlijst, planten en dieren","2. Een terra sigillata schaaltje in fragment type Drag. 18/31, met de"
 ocr_4,1,7,0.750,0.830,0.720,same,Terra sigillata,Terra sigillata,,,Een terra-sigillata bodemfragment waarop aan de buitenzijde ingekrast:,3. Een terra sigillata bodemfragment waarop aan de buitenzijde inge-krast:
+ocr_4,,1,,,,overclaim,,Terra sigillata plate,,Dragendorff 32,,"Nadat er ongeveer 80 cm. grond van de bovenzijde van het betrokken
+terrein waren verwijderd, werden de volgende romeinse"
+ocr_4,,2,,,,overclaim,,Terra sigillata mortarium,,Dragendorff 45,,"Nadat er ongeveer 80 cm. grond van de bovenzijde van het betrokken
+terrein waren verwijderd, werden de volgende romeinse"
+ocr_4,,3,,,,overclaim,,Terra sigillata decorated bowl,,Dragendorff 29,,"Nadat er ongeveer 80 cm. grond van de bovenzijde van het betrokken
+terrein waren verwijderd, werden de volgende romeinse"
+ocr_4,,4,,,,overclaim,,Terra sigillata decorated bowl,,Dragendorff 37,,"Nadat er ongeveer 80 cm. grond van de bovenzijde van het betrokken
+terrein waren verwijderd, werden de volgende romeinse"
+ocr_4,,6,,,,overclaim,,Dish,,,,"2. Een terra sigillata schaaltje in fragment type Drag. 18/31, met de"
+ocr_4,,9,,,,overclaim,,Bowl,,,,4. Een terra sigillata schaal in fragment type Drag. 32.
+ocr_4,,12,,,,overclaim,,Pottery,,,,9. Verder nog een dertigtal aardewerkfragmenten waaronder terra sigillata en inheems aardewerk.
 ocr_5,1,6,0.700,0.850,0.660,same,Beaker,Beakers,,,Bijzonder is de vroege datering van dit type bekers: ze werden voornamelijk tijdens het bewind van keizer Augustus gemaa,"Bij-zonder is de vroege datering van
 dit type bekers: ze werden voor-namelijk tijdens het bewind van
 keizer Augustus gem"
 ocr_5,0,1,0.610,0.860,0.560,same,Beaker,Drinking cup,,,"Deze vroeg-Romeinse drinkbeker van aardewerk is in Coriovallum gevonden, maar gemaakt in het Franse Lyon.","Scherven brengen geluk! Deze vroeg-Romeinse drinkbeker
 van aardewerk is in Coriovallum gevonden, maar gemaakt in
 het Fra"
+ocr_5,,0,,,,overclaim,,Aco beaker barbotine type,,ACO-beker,,"Deze zijn van
+een ACO-beker en schuin tegen-over het badhuis gevonden."
+ocr_5,,2,,,,overclaim,,Pottery,,,,"Scherven brengen geluk! Deze vroeg-Romeinse drinkbeker
+van aardewerk is in Coriovallum gevonden, maar gemaakt in
+het Fra"
+ocr_5,,3,,,,overclaim,,Pottery,,,,"De productie van aardewerk in Coriovallum
+kwam pas halverwege de eerste eeuw op gang."
+ocr_5,,4,,,,overclaim,,Pottery,,,,"Voor die tijd
+werd het meeste aardewerk van ver aan-gevoerd, zoals dus deze beker.
+► Soms kunnen kleine scherfjes
+heel b"
+ocr_5,,5,,,,overclaim,,Beaker,,,,"Voor die tijd
+werd het meeste aardewerk van ver aan-gevoerd, zoals dus deze beker.
+► Soms kunnen kleine scherfjes
+heel b"
+ocr_5,,7,,,,overclaim,,Beakers,,,,"Bovendien gebruikten
+vooral officiers in het Romeinse
+leger dit type bekers."
+ocr_5,,8,,,,overclaim,,Bowl,,,,"Het was rond die
+schaal altijd een groezelige bedoening."
+ocr_5,,9,,,,overclaim,,Pottery,,,,"Daarvoor kijken archeologen naar de
+vondsten die rond het badhuis zijn gedaan, zoals munten, bepaalde vormen van aardewe"
 new_rep_1,1,0,0.990,0.910,0.990,same,Gallic wine amphora,Gallic wine amphora,Gauloise 4,Gauloise 4,Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise 4.,"Een tweede herkenbaar fragment is afkomstig van een wijnamfoor Gauloise
 4.7 Twee rode ruwwandige fragmenten en een sterk"
 new_rep_1,6,20,0.990,0.920,0.830,same,Baetican olive oil amphora,Baetican olive oil amphora,Dressel 20,Dressel 20,een oor van een olijfolieamfoor Dressel 20,In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk aangetroffen. 7 Voor determinatie amforen zie P
@@ -861,6 +1031,36 @@ een stuk van een "
 new_rep_1,8,12,0.530,0.880,0.450,same,Dolium,Dolium,,,"een wandfragment van een dolium versierd met gladde ribbels,","wandfragment van een dolium versierd met gladde ribbels, een rand van een wrijfschaal met"
 new_rep_1,5,,,0.620,0.280,missing,Olive oil amphora,,,,In de sporen S5 en S6 die vlak bij elkaar liggen zijn respectievelijk een rand van een groot bolrond voorraadvat (dolium,
 new_rep_1,9,,,0.760,0.340,missing,Mortarium,,,,een rand van een wrijfschaal met horizontale rand uit de 2e eeuw of later,
+new_rep_1,,1,,,,overclaim,,Pottery,,,,"Links:zuidelijke gedeelte naar het noorden Rechts: noordelijke gedeelte naar het noorden 4.6.4 Aardewerk
+W.F. Reigersman"
+new_rep_1,,2,,,,overclaim,,Pottery,,,,"Het aardewerk is
+goed herkenbaar en redelijk goed geconserveerd."
+new_rep_1,,3,,,,overclaim,,Pottery,,,,"Het aardewerk uit de bovenlaag heeft meer te
+lijden gehad door bijvoorbeeld ploegen."
+new_rep_1,,7,,,,overclaim,,Beaker,,,,"Deze beker heeft een wit baksel met
+een zwarte verflaag."
+new_rep_1,,8,,,,overclaim,,Baetican olive oil amphora,,Dressel 20,,"Ook S8 bevatte duidelijke aardewerkfragmenten: een oor van een olijfolieamfoor Dressel 20 en de
+rand van een wrijfschaal"
+new_rep_1,,10,,,,overclaim,,Pottery,,,,Ook S8 bevatte duidelijke aardewerkfragmenten: een oor van een olijfolieamfoor Dressel 20 en de
+new_rep_1,,11,,,,overclaim,,Grinding bowl,,,,rand van een wrijfschaal met verticale rand die vanaf 160 is te dateren (afb. 4.6.10).8
+new_rep_1,,13,,,,overclaim,,Grinding bowl,,,,"wandfragment van een dolium versierd met gladde ribbels, een rand van een wrijfschaal met"
+new_rep_1,,15,,,,overclaim,,amfoor,,,,"Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+voorraadvaten (amfoor "
+new_rep_1,,16,,,,overclaim,,Dolium,,,,"Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+voorraadvaten (amfoor "
+new_rep_1,,17,,,,overclaim,,Grinding bowl,,,,"Het valt op dat hier vooral fragmenten van grote zware vormen zijn aangetroffen: vijf stukken van
+voorraadvaten (amfoor "
+new_rep_1,,18,,,,overclaim,,Pottery,,,,In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk
+new_rep_1,,19,,,,overclaim,,Beaker,,,,Het bekerfragment is in de 2e eeuw te dateren.
+new_rep_1,,22,,,,overclaim,,amforen,,,,wrijven. In de mogelijke middenstaander zijn twee fragmenten van fijner aardewerk aangetroffen. 7 Voor determinatie amfo
+new_rep_1,,23,,,,overclaim,,Grinding bowl,,,,"8 Voor de datering van de wrijfschalen: Van Vinckenroye 1991, 74."
+new_rep_1,,24,,,,overclaim,,amfoor,,,,38 Afb. 4.6.10 Oor van amfoor Dressel 20 en wrijfschaal Brunsting 37 en uit S8. Interpretatie
+new_rep_1,,25,,,,overclaim,,Grinding bowl,,,,38 Afb. 4.6.10 Oor van amfoor Dressel 20 en wrijfschaal Brunsting 37 en uit S8. Interpretatie
+new_rep_1,,26,,,,overclaim,,Pottery,,,,"Hoewel de hoeveelheid aangetroffen aardewerk gering is, is het wel mogelijk een voorzichtige"
+new_rep_1,,27,,,,overclaim,,Grinding bowl,,,,"De fragmenten van voorraadvaten en wrijfschalen wijzen op een omgeving met een opslagfunctie
+of waar een ambacht werd ui"
+new_rep_1,,28,,,,overclaim,,Pottery,,,,"De
+aanwezigheid van wat fijner aardewerk in een paalkuil spreekt dit vermoeden niet tegen."
 new_rep_2,32,36,0.980,0.870,0.980,same,Terra sigillata decorated bowl,--/27-3-17/5260,Dragendorff 37,Dragendorff 37,"--/27-3-17/5260, Drag. 37","East Gaul, AD 100-270.
 --/27-3-17/5260, Drag. 37.
 --/94-3-5/10503, Drag. 37.
@@ -1013,6 +1213,55 @@ new_rep_2,35,,,0.240,0.690,missing,Terra sigillata,,Dragendorff 27g,,"702-19/7-0
 new_rep_2,36,,,0.210,0.680,missing,Terra sigillata dish,,,,"--/96-2-1/8220, dish",
 new_rep_2,38,,,0.330,0.560,missing,Terra sigillata cup,,,,"--/1932-11.3/13041, cup",
 new_rep_2,41,,,0.200,0.770,missing,Terra sigillata,,Dragendorff 27g,,"--/7-1-25/197, Drag. 27g",
+new_rep_2,,4,,,,overclaim,,Terra sigillata,,,,Decorated terra sigillata.
+new_rep_2,,6,,,,overclaim,,--/13-3-15/1588,,Dragendorff 37,,"La Graufesenque, Germanus III, AD 80-110.
+--/13-3-15/1588, Drag. 37 (Fig. 22.6)."
+new_rep_2,,9,,,,overclaim,,--/0-0-0/12972,,Dragendorff 37,,"Lezoux, X-6 (style), AD 125-150.
+--/0-0-0/12972, Drag. 37 (Fig. 22.6)."
+new_rep_2,,11,,,,overclaim,,302-6/100-1-6,,Dragendorff 37,,"Amor Lutz P1 and siing gure Fölzer 152/Lutz P48, divided by palm ornament Lutz V30.
+Sao/Saturninus, AD 100-160.
+498
+La"
+new_rep_2,,13,,,,overclaim,,Terra sigillata,,,,"Decorated terra sigillata, cont."
+new_rep_2,,20,,,,overclaim,,Probably ware,,,,"Probably ware with ovolo A2, AD 120-190.
+--/27-2-24, Drag. 37 (Fig. 22.7)."
+new_rep_2,,24,,,,overclaim,,--/0-0-0/10406,,Dragendorff 37,,"Argonne?, AD 120-220.
+500
+Trier
+--/0-0-0/10406, Drag. 37 (Fig. 22.8)."
+new_rep_2,,30,,,,overclaim,,Terra sigillata,,,,"Decorated terra sigillata, cont."
+new_rep_2,,37,,,,overclaim,,Terra sigillata,,,,"Decorated terra sigillata, cont."
+new_rep_2,,38,,,,overclaim,,Terra sigillata,,,,{z} NoTS (Names on Terra Sigillata):
+new_rep_2,,45,,,,overclaim,,Terra sigillata,,,,Stamps on terra sigillata.
+new_rep_2,,46,,,,overclaim,,Terra sigillata cup,,Dragendorff 27,,"East Gaul
+IANVA[RIVS.F]
+--/95-2-9/10948, cup, probably Drag. 27 (Fig. 22.10)."
+new_rep_2,,47,,,,overclaim,,Terra sigillata plate,,Dragendorff 18/31,,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1"
+new_rep_2,,48,,,,overclaim,,Terra sigillata cup,,Dragendorff 27,,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1"
+new_rep_2,,50,,,,overclaim,,Terra sigillata plate,,Dragendorff 31,,"This stamp is recorded mainly on dishes Drag. 18/31 and cups Drag. 27.
+La Madeleine, AD 125-160.
+IV[---]?
+319-13/110-2-1"
+new_rep_2,,52,,,,overclaim,,Terra sigillata plate,,Dragendorff 31,,"Trier? AD 100-270.
+M[IIRCOF] (?)
+--/0-0-0/10402, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,54,,,,overclaim,,Terra sigillata plate,,Dragendorff 31,,"Lavoye, AD 150-165.
+TOCCIVS
+--/1932-11.3/13042, Drag. 18/31 or Drag. 31 (Fig. 22.10)."
+new_rep_2,,57,,,,overclaim,,21-3-5/3776,,Dragendorff 27,,"South Gaul, AD 90-120.
+P
+21-3-5/3776, Drag. 27 (Fig. 22.11)."
+new_rep_2,,59,,,,overclaim,,16-3-7/2427+2428,,Dragendorff 37,,"South Gaul, rst century-beginning second century AD.
+X ?
+16-3-7/2427+2428, Drag. 37 (Fig. 22.11)
+Possible gravto, placed"
+new_rep_2,,64,,,,overclaim,,Terra sigillata,,,,Graffiti on terra sigillata.
 new_rep_3,0,0,0.980,0.870,0.980,same,Terra sigillata,Terra sigillata,,,"Among the pottery, terra sigillata dates from the 2nd century","Among the pottery, terra
 sigillata dates from the 2nd century, painted cups from
 the 2nd and 3rd centuries, amphorae (of"
@@ -1043,6 +1292,10 @@ fragments are "
 new_rep_4,4,3,0.970,0.860,0.960,same,Terra sigillata mortarium,Terra sigillata mortarium,Dragendorff 45,Dragendorff 45,band mortaria Drag. 45,"The terra sigillata comprises cups bowls Drag.
 37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two
 fragments are "
+new_rep_4,,5,,,,overclaim,,Terra sigillata,,,,"Only terra sigillata has been
+collected."
+new_rep_4,,6,,,,overclaim,,Terra sigillata,,,,collected. The terra sigillata comprises cups bowls Drag.
+new_rep_4,,7,,,,overclaim,,Mortaria,,,,"37, Drag. 33, plates Drag.18/31 and mortaria Drag. 45. Two"
 new_rep_5,4,7,0.940,0.650,0.790,same,Pottery,Pottery,,,24 aardewerk Romeinse tijd,aardewerk Romeinse tijd
 new_rep_5,3,4,0.930,0.650,0.700,same,Pottery,Pottery,,,21 aardewerk Romeinse tijd,"Romeinse tijd en Middeleeuwen
 In het zuidelijke deel van het plangebied is een relatief groot aantal fragmenten aardewer"
@@ -1053,3 +1306,16 @@ new_rep_5,2,13,0.910,0.700,0.820,same,Pottery,Pottery,,,20 aardewerk Romeinse ti
 new_rep_5,5,3,0.910,0.600,0.690,different,Pottery,Pottery,,,25 aardewerk Romeinse tijd,"Dit type (zacht) aardewerk verweert zeer snel als het aan de oppervlakte komt en is
 daardoor vaak lastig of niet te vind"
 new_rep_5,7,,,0.410,0.480,missing,Painted ware,,,,29 aardewerk Romeinse tijd,
+new_rep_5,,0,,,,overclaim,,Bowl,,,,"• kaartblad topografische kaart Nederland, schaal 1:25.000: 62A"
+new_rep_5,,1,,,,overclaim,,Pottery,,,,"Tijdens de oppervlaktekartering is het oppervlak systematisch afgezocht, waarbij gelet is op
+aardewerkscherven, voorwerp"
+new_rep_5,,2,,,,overclaim,,Pottery,,,,"Neolithicum, Bronstijd en IJzertijd (eerste landbouwers)
+Prehistorisch aardewerk is nergens aangetroffen."
+new_rep_5,,5,,,,overclaim,,Pingsdorf ware,,,,waarschijnlijk Pingsdorf
+new_rep_5,,6,,,,overclaim,,Andenne ware,,,,mogelijk Andenne (deels geglazuurd)
+new_rep_5,,11,,,,overclaim,,Pottery,,,,aardewerk Romeinse tijd
+new_rep_5,,12,,,,overclaim,,Pottery,,,,aardewerk Romeinse tijd
+new_rep_5,,14,,,,overclaim,,Pottery,,,,aardewerk Romeinse tijd
+new_rep_5,,15,,,,overclaim,,geverfd aardewerk,,,,"geverfd aardewerk, techniek B, raadjesversiering"
+new_rep_5,,16,,,,overclaim,,Pottery,,,,Prehistorisch aardewerk (Neolithicum t/m IJzertijd) is nergens aangetroffen.
+new_rep_5,,17,,,,overclaim,,Pottery,,,,betekent niet dat dit nooit aanwezig is geweest. Dit type (zacht) aardewerk verweert zeer snel

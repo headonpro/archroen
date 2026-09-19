@@ -313,6 +313,7 @@ def run(gold_dir, out_dir, judge, only=None, present_only=False, score_stage=Tru
             for mode in ("strict", "lenient"):
                 emit(mode, eg.solo_cells(o[oi], "overclaim", "workflow"))
             detail.append([r, "overclaim", ""] + sum(([v, gv, wv] for v, gv, wv in eg.solo_cells(o[oi], "overclaim", "workflow").values()), []))
+            align_rows.append([r, "", oi, "", "", "", "overclaim", "", o[oi]["pot"], "", o[oi]["raw_typ"], "", o[oi]["text"][:120]])
 
         n_same = sum(1 for gi, oi, _ in pairs if (score_level(levels[(gi, oi)]) if levels else "same") == "same")
         n_diff = len(pairs) - n_same - n_review
